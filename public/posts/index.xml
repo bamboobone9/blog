@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 无竹斋 - 施工中</title>
-    <link>http://localhost:49731/public/posts/</link>
+    <link>https://bamboobone9.com/public/posts/</link>
     <description>Recent content in Posts on 无竹斋 - 施工中</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:49731/public/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bamboobone9.com/public/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

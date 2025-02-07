@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on 无竹斋 - 施工中</title>
-    <link>http://localhost:49731/public/docs/</link>
+    <link>https://bamboobone9.com/public/docs/</link>
     <description>Recent content in Docs on 无竹斋 - 施工中</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="http://localhost:49731/public/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bamboobone9.com/public/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>友邻链</title>
-      <link>http://localhost:49731/public/docs/friends/</link>
+      <link>https://bamboobone9.com/public/docs/friends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:49731/public/docs/friends/</guid>
+      <guid>https://bamboobone9.com/public/docs/friends/</guid>
       <description></description>
     </item>
     <item>
       <title>故纸堆</title>
-      <link>http://localhost:49731/public/docs/archive/</link>
+      <link>https://bamboobone9.com/public/docs/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:49731/public/docs/archive/</guid>
+      <guid>https://bamboobone9.com/public/docs/archive/</guid>
       <description></description>
     </item>
     <item>
       <title>斋主人</title>
-      <link>http://localhost:49731/public/docs/about/</link>
+      <link>https://bamboobone9.com/public/docs/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:49731/public/docs/about/</guid>
+      <guid>https://bamboobone9.com/public/docs/about/</guid>
       <description></description>
     </item>
   </channel>
