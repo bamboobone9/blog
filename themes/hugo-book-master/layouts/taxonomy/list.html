@@ -3,7 +3,7 @@
   <h1>{{ .Title | title }}</h1>
   {{ $taxonomies := index .Site.Taxonomies .Page.Type }}
   {{ range $taxonomies }}
-    <div><a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup>{{ .Count }}</sup></a></div>
+    <div><a class="tag-cloud" href="{{ .RelPermalink }}" target="_blank">{{ .Title }} [{{ len .Pages }}]</a></div>
   {{ end }}
 </article>
 {{ end }}
@@ -11,3 +11,4 @@
 {{ define "toc" }}
   {{ partial "docs/taxonomy" . }}
 {{ end }}
+

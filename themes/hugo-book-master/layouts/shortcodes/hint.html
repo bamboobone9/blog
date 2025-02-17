@@ -1,3 +1,4 @@
 <blockquote class="book-hint {{ .Get 0 }}">
+  {{if .Get 1  }}<img src="https://douchi.sfo3.cdn.digitaloceanspaces.com/random/logo/rss.png"/>{{end}}
   {{ .InnerDeindent | safeHTML }}
 </blockquote>

@@ -1,7 +1,10 @@
 ---
-bookHidden = True:
-title: "故纸堆"
 type: docs
+title: "故纸堆"
+menu:
+  after:
+    name: archive
+    weight: 8
 ---
 # 故纸堆
 

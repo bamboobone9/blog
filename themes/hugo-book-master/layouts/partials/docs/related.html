@@ -15,9 +15,6 @@
     {{ with .Prev }}
       <a href="{{ .Permalink }}?utm_source=nav" ><< 前 | {{ .Title | truncate 15 "..."}}</a>
     {{ end }}
-    <a onclick='goToRandomPost()' style="cursor: pointer">
-      随便逛逛
-    </a>
     {{ with .Next }}
       <a href="{{ .Permalink }}?utm_source=nav" >{{ .Title | truncate 15 "..."}} ｜ 后 >></a>
     {{ end }}
