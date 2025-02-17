@@ -4,13 +4,14 @@
     <h2>
       <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
     </h2>
-    {{ partial "docs/post-meta" . }}
-    <div class="book-post-content">
+    <p>
+      {{ partial "docs/post-meta" . }}
       {{- .Summary -}}
       {{ if .Truncated }}
-        <a href="{{ .RelPermalink }}">...</a>
+        <a href="{{ .RelPermalink }}">阅读全文 ->  本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟</a>
       {{ end }}
-    </div>
+    </p>
+    <hr class="post-divider" />
   </article>
   {{ end }}
 

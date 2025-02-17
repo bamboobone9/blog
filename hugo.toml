@@ -6,6 +6,8 @@ theme = "hugo-book-master"
 # Book configuration
 disablePathToLower = true
 enableGitInfo = false
+# 中文字数统计
+hasCJKLanguage = true
 
 [taxonomies]
   category = "categories"
@@ -45,24 +47,18 @@ enableGitInfo = false
   url = "#"
   weight = 7
 
-[[menu.after]]
-  name = "故纸堆"
-  url = "/docs/archive/"
-  weight = 8
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
 
-[[menu.after]]
-  name = "斋主人"
-  url = "/docs/about/"
-  weight = 9
-
-[[menu.after]]
-  name = "友邻链"
-  url = "/docs/friends/"
-  weight = 10
-
-
+copyright = '© 2025 无竹斋'
 
 [params]
+  [params.author]
+    email = 'bamboobone9@gmail.com'
+    name = '无竹斋'
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme = 'light'
@@ -78,16 +74,16 @@ enableGitInfo = false
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
-  # BookLogo = 'logo.png'
+  BookLogo = 'white_logo.png'
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  #BookSection = 'docs'
+  #BookSection = /docs'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookRepo = 'https://github.com/bamboobone9/blog'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -99,7 +95,7 @@ enableGitInfo = false
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/main/exampleSite'
+  #BookEditPath = 'edit/main/exampleSite'
 
   # Configure the date format used on the pages
   # - In git information

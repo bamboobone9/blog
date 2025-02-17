@@ -8,12 +8,15 @@ tags: ["健康医疗", "北美生活" ]
 menu:
   main:
     parent: life
-
+booktoc: true
+bookComments: true
+image: https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/gum-graft/gum-graft-illustration.jpg
+imageDes: ""
 ---
 
 过去两周几乎没出去参加活动也没见朋友，正在经历不太好过的术后恢复。这已经是我第二年做 gum graft 了。我第一次做手术之前查资料的时候发现即使在美国，在我这个年龄需要做这种手术的人不多，在国内是更不常见的治疗手段。决定写出来给病友一些参考。
 
-# 我为啥要做 Gum Graft？
+## 我为啥要做 Gum Graft？
 
 说来话长，和我的出厂配置 有很大关系。青春期时候在国内做整牙（当年还是钢丝牙套），我才十几岁，牙医就对我的牙龈状况有点担忧。后来戴了三年牙套，清洁牙齿困难，使得牙龈问题更严重。按咱们90后家长的口腔卫生意识，能一天刷两次牙，用用漱口水，已经很讲卫生了，牙线什么的从没听说过。以上这些原因让先天不足的牙龈退化更严重。
 

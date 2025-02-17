@@ -1,1 +1,27 @@
-{{ define "dummy" }}{{ end }}
+{{ define "main" }}
+  <div class="latest-posts">
+    <h2>近期文章</h2>
+    <ul class="latest-posts-list">
+      {{ range where .Site.RegularPages "Type" "not in" "docs" }}
+        {{ if not .Params.exclude }}
+          <li class="post-item">
+            <a href="{{ .Permalink }}" class="post-image">
+              <img src="{{ .Params.image | default "/images/default.jpg" }}" alt="{{ .Title }}">
+            </a>
+            <div class="post-content">
+              <p class="post-category">{{ .Params.category }}</p>
+              <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <p class="post-meta">
+                <span class="post-date">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+                <span class="post-read-time">📖 {{ .ReadingTime }} Min Read</span>
+              </p>
+              <a href="{{ .Permalink }}" class="post-read-more">READ MORE</a>
+            </div>
+          </li>
+          <hr class="post-separator"> <!-- Separator line -->
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+

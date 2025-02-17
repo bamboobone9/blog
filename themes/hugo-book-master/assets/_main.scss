@@ -102,6 +102,52 @@ a .book-icon {
   }
 }
 
+.image-desc {
+  font-size:small;
+  margin-top: 2px;
+  color: gray;
+  text-align: center;
+}
+
+.title-image {
+  text-align: left;
+  margin-bottom: 0px;
+  color: gray;
+  width:auto;
+}
+
+.title-image img {
+    display: flex;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+.title-image-description {
+  margin-top: -5px; /* Reduce spacing between image and description */
+  padding-top: 0;
+  font-size: 14px;
+  color: gray;
+  line-height: 1.2; /* Adjust to make it more compact */
+}
+.archive {
+  display: inline;
+  color: var(--gray-500);
+  font-size: 0.75em;
+}
+
+.tag {
+  display: inline;
+  padding: 0 $padding-4;
+  border-radius: 2px;
+  background:var(--tag-color);
+  font-size: 0.875em;
+}
+
+.tag-small {
+  font-size: 0.75em;
+  color: var(--gray-500);
+}
+
 .book-menu {
   flex: 0 0 $menu-width;
   font-size: $font-size-14;
@@ -141,6 +187,26 @@ a .book-icon {
     content: "▾";
   }
 }
+// for tag-cloud
+.tag-cloud {
+  display: inline-block;
+  font-size: $font-size-12;
+  color: var(--color-link);
+  line-height: 20px;
+  border: 0;
+  border-radius: $border-radius;
+  padding: 0 1px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: white;
+
+  &:hover {
+    text-decoration: none;
+    // background-color: #E8F6EF;
+    filter: drop-shadow(1px 1px 1px var(--color-link));
+  }
+}
+
 
 // for RTL support
 body[dir="rtl"] .book-menu {
@@ -369,5 +435,103 @@ body[dir="rtl"] .book-menu {
   .book-menu .book-menu-content,
   .book-toc .book-toc-content {
     padding: $padding-16 * 2 $padding-16;
+  }
+}
+
+/* Container for the latest posts */
+.latest-posts {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Layout for each post item */
+.post-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* Style for the post image */
+.post-image img {
+  width: 200px;  /* Adjust based on design */
+  height: 150px; /* Fixed height to maintain consistency */
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Post content on the right */
+.post-content {
+  flex: 1;
+}
+
+/* Category label */
+.post-category {
+  font-size: 14px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+/* Title styling */
+.post-content h2 {
+  font-size: 20px;
+  margin: 5px 0;
+  min-height: 48px;
+  display: flex;
+  alighn-items: flex-end;
+  line-height: 1.4;
+}
+
+.post-content h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Metadata row */
+.post-meta {
+  font-size: 14px;
+  color: gray;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Read more link */
+.post-read-more {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Separator line between posts */
+.post-separator {
+  border: none;
+  border-top: 1px dashed #ccc;
+  margin: 15px 0;
+}
+
+/* Mobile Layout: Image on top */
+@media (max-width: 768px) {
+  .post-item {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+  }
+
+  .post-image {
+    width: 100%; /* Full width on mobile */
+    text-align: left;
+  }
+
+  .post-image img {
+    width: 100%; /* Responsive width */
+    max-width: 400px; /* Prevents oversized images */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .post-content {
+    text-align: left;
+    width: 100%;
   }
 }

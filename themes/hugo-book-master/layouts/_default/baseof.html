@@ -38,6 +38,12 @@
       <div class="book-toc-content">
         {{ template "toc" . }} <!-- Table of Contents -->
       </div>
+      </aside>
+    {{ else if eq .Type "post" }}
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        {{ partial "docs/taxonomy" . }} <!-- Tags and category -->
+      </div>
     </aside>
     {{ end }}
   </main>
@@ -73,8 +79,39 @@
 {{ end }}
 
 {{ define "main" }}
-  <article class="markdown book-article">
-    {{- .Content -}}
+  <article class="markdown">
+    {{ if eq .Type "post"}}
+     <!-- Display Title Image -->
+    {{ if .Params.image }}
+       <div class="post-title-image">
+        <img src="{{ .Params.image | absURL }}" alt="{{ .Params.imageDes }}" />
+      </div>
+    {{ end }}
+    <!-- Display Image Description -->
+    {{ if .Params.imageDes }}
+      <p class="title-image-description">
+        {{ .Params.imageDes }}
+      </p>
+    {{ end }}
+    <h1>{{- .Title -}}</h1>
+    {{ partial "docs/post-meta" . }}
+    <blockquote class="book-hint info">
+      本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
+    </blockquote>
+    <hr />
+
+  {{ end }}
+  {{- .Content -}}
+  {{ if eq .Type "post"}}
+    {{ partial "docs/related" .}}
+      <!-- vertical version  -->
+      <!-- <div class="support-container" > -->
+        <!-- {{ partial "docs/reaction" . }}
+        {{ partial "docs/support" .}} -->
+      <!-- </div> -->
+      {{ partial "docs/support" .}}
+      <!-- {{ partial "docs/reaction" . }} -->
+    {{ end }}
   </article>
 {{ end }}
 

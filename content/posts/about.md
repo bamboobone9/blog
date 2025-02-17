@@ -1,6 +1,5 @@
 ---
 type: docs
-bookHidden = True:
 title: "斋主人"
 menu:
   after:

@@ -22,7 +22,7 @@ $toc-width: 16rem !default;
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 
 $hint-colors: (
-  info: #6bf,
+  info: #28698F,
   warning: #fd6,
   danger: #f66,
 ) !default;
@@ -33,15 +33,15 @@ $hint-colors: (
   --gray-200: #e9ecef;
   --gray-500: #adb5bd;
 
-  --color-link: #0055bb;
-  --color-visited-link: #8440f1;
+  --color-link: #39637d;
+  --color-visited-link: #406D92;
 
   --body-background: white;
   --body-font-color: black;
 
   --icon-filter: none;
 
-  --hint-color-info: #6bf;
+  --hint-color-info: #28698F;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
 }
@@ -59,7 +59,7 @@ $hint-colors: (
 
   --icon-filter: brightness(0) invert(1);
 
-  --hint-color-info: #6bf;
+  --hint-color-info: #28698F;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
 }
