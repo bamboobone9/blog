@@ -1,7 +1,15 @@
 {{- if .Page.Site.Params.BookPortableLinks -}}
   {{- template "portable-image" . -}}
 {{- else -}}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+  {{- if .Text}}
+    <!-- Wraping in the same paragraph, otherwise it'll get wrapped into another p and mess up padding -->
+    <div class="image-desc">
+      <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+      <i>{{ .Text}}</i>
+    </div>
+  {{- else -}}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }}/>
+  {{- end -}}
 {{- end -}}
 
 {{- define "portable-image" -}}
