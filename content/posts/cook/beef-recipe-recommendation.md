@@ -40,7 +40,7 @@ Bakc Ribs 不是每次都能买到，单价相对其他牛肉产品便宜很多�
 
 不喜欢吃面的我也会为了这道菜特意买拉面回来煮，韩式拉面或者北方面条煮完过一下凉水，浇上汤汁，啃一口大牛骨，吃一口面，真的太幸福了！！  
 
-![](https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/beef-back-ribs-soup.jpg)
+![ceshi](https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/beef-back-ribs-soup.jpg)
 
 个人经验：
 

@@ -1,6 +1,6 @@
 <div id="heatmap" style="
   max-width: 600px;
-  height: 120px;
+  height: 140px;
   padding: 2px;
   text-align: center;"
 ></div>
@@ -86,7 +86,7 @@
   option = {
     // title: {
     //     top: 0,
-    //     left: 'center',
+    //     left: 'left',
     //     text: '博客废话产量'
     // },
     tooltip: {
@@ -112,17 +112,19 @@
         type: 'piecewise',
         orient: 'horizontal',
         left: 'center',
+        top: 0,
+
         inRange: {   
           //  [floor color, ceiling color]
-          color: ['#7aa8744c', '#7AA874' ] 
+          color: ['#8DB3C9', '#0B3954' ]
         },
         splitNumber: 5,
-        show: false,
+        showLabel: true,
+        itemGap: 20,
         text: ['千字', ''],
-        itemSymbol: 'none',
     },
     calendar: {
-        top: 16,
+        top: 50,
         left: 20,
         right: 4,
         cellSize: ['auto', 12],
