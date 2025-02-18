@@ -9,9 +9,11 @@ menu:
 ---
 # 斋主人
 
-<span style="color: #9a9a9a">与君同醒复同醉，仰看青士冠剑长。</span>.
+<span style="color: #9a9a9a">与君同醒复同醉，仰看青士冠剑长。</span>
 <br>
 <br>
+
+![](/static/chun-yang.jpeg)
 
 悲观的理想主义者  
 拖延的兴趣多动症  
@@ -24,8 +26,15 @@ menu:
 人生理想是有处带园林的隐居书斋  
 在那之外的时间只想生活在大城市
 
+---
 
-欢迎做客无竹斋，我是斋主人竹淡刻骨，可以叫我竹子。这里是我的简中网络避难所，自由的精神角落。  
+<br>
+
+欢迎做客无竹斋，我是斋主人竹淡刻骨，可以叫我竹子。  
+这里是我的简中网络避难所，自由的精神角落。  
+
+<br>
+
 你可以在以下平台找到我：<a href="https://www.instagram.com/bamboobone/" target="_blank">Instagram</a>  
 如果你喜欢我的博客，欢迎订阅 <a href="https://bamboobone9.com/index.xml" target="_blank">RSS</a>  
 有任何问题请通过邮件联系我：bamboobone9@gmail.com  

@@ -1,5 +1,5 @@
 ---
-title: Benu 吃一次就够，剩下的交给 San Ho Wan
+title: 湾区食单 | Benu 吃一次就够，剩下的交给 San Ho Wan
 type: post
 date: 2023-09-26T22:54:00-07:00
 url: /restaurant-review-benu/
