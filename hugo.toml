@@ -47,11 +47,11 @@ hasCJKLanguage = true
   url = "#"
   weight = 7
 
-[outputs]
-  home = ['html', 'rss']
-  section = ['html', 'rss']
-  taxonomy = ['html']
-  term = ['html']
+[[menu.after]]
+  identifier = "RSS"
+  name = "RSS"
+  url = "https://bamboobone9.com/index.xml"
+  weight = 11
 
 copyright = '© 2025 无竹斋'
 

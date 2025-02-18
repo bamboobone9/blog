@@ -293,3 +293,7 @@ John Singer Sargent 是美国镀金年代的知名画家。他的画喜欢捕捉
 
 ![](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1006a3167e143f32_d20250216_m231828_c004_v0402019_t0001_u01739747908238)
 *John Singer Sargent, Mosquito Nets, 1908.*
+---
+<div style="text-align: center; font-size: 48px; padding: 20px;">
+  完
+</div>

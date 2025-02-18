@@ -27,5 +27,6 @@ menu:
 
 欢迎做客无竹斋，我是斋主人竹淡刻骨，可以叫我竹子。这里是我的简中网络避难所，自由的精神角落。  
 你可以在以下平台找到我：<a href="https://www.instagram.com/bamboobone/" target="_blank">Instagram</a>  
-也可以给我发邮件：bamboobone9@gmail.com  
+如果你喜欢我的博客，欢迎订阅 <a href="https://bamboobone9.com/index.xml" target="_blank">RSS</a>  
+有任何问题请通过邮件联系我：bamboobone9@gmail.com  
 如果你想支持我的创作，<a href="https://ko-fi.com/bamboobone" target="_blank">可以请我吃块炸鸡</a>
