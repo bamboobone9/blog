@@ -8,8 +8,9 @@ tags: ["菜谱", "北美生活", "下厨房" ]
 menu:
   main:
     parent: cook
-image: https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/tomato-oxtail-stew.jpg
+image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f106aa2d6d14d0a75_d20250215_m080351_c004_v0402026_t0035_u01739606631236
 imageDes: 番茄牛尾汤
+bookComments: true
 ---
 
 这个系列计划按照食材分篇，推荐一些想要到处安利的经过时间检验的菜谱。大多数食材美国都能买到，会着重推荐costco的产品，保证没有中超也能做一部分。
@@ -40,7 +41,7 @@ Bakc Ribs 不是每次都能买到，单价相对其他牛肉产品便宜很多�
 
 不喜欢吃面的我也会为了这道菜特意买拉面回来煮，韩式拉面或者北方面条煮完过一下凉水，浇上汤汁，啃一口大牛骨，吃一口面，真的太幸福了！！  
 
-![](https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/beef-back-ribs-soup.jpg)
+![](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1014c463fed9170c_d20250215_m082012_c004_v0402028_t0053_u01739607612767)
 
 个人经验：
 
@@ -64,7 +65,7 @@ Bakc Ribs 不是每次都能买到，单价相对其他牛肉产品便宜很多�
 
 麻烦程度：⭐⭐
 
-![](https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/beef-back-ribs-daikon-soup.jpg)
+![](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f119ff8322fd08053_d20250215_m082149_c004_v0402028_t0050_u01739607709801)
 
 
 这做法没有现成菜谱，简单到不值得说，可以用来炖一切清汤。
@@ -327,7 +328,7 @@ costco以前只有偏厚的牛肉片卖，做不了咱们喜欢的中日韩菜�
 
 第一种酸汤是四川金汤，用了黄灯笼辣椒和南瓜。我这种吃辣弱鸡会买海底捞出的酸汤肥牛汤底，做法[看的是尚食厨房这个菜谱](https://youtu.be/G8heLAbJC-M?si=MPFiJKA5-TOtwWHC)，我用海底捞底料替换了他用的黄辣椒酱。
 
-![](https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/beef-recipe-recommendation/golden-sour-soup-slice-beef.jpg)
+![](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f108b073a013336de_d20250215_m190148_c004_v0402027_t0021_u01739646108067)
 
 还吃过贵州朋友精心烹制的西南酸汤肥牛，用到了百香果这种高级食材（贵州云南酸汤的酸来自百香果和番茄），非常非常好吃，已经成为新欢。[目前亚米和 weee 也都有现成调料包卖，贵州朋友推荐的是这款玉梦牌的的](https://www.notion.so/Mediterranean-Vegetable-Soup-3aeb5da46d84403180f268c254e7c1b4?pvs=21)。毕赣的电影让我熟悉了凯里这个地名，没想到酸汤也很有名。
 

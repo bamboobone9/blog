@@ -9,6 +9,7 @@ menu:
     parent: cultural
 image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1093b345785134a5_d20250218_m090945_c004_v0402010_t0004_u01739869785920
 imageDes: Designed by atlascompany / Freepik
+bookComments: true
 ---
 
 本书单全凭个人喜好，不包含路人皆知的最有名的那些作品。可读性太差如《德尔塔的悲剧》这类作品不会推荐，案件太弱的社会派/怪谈类作品也不会推荐。考虑到部分作品的成书年代久远，本书单中无法避免会有作品价值观保守或太男的作品。部分推荐语语焉不详是为了避免泄底。  
