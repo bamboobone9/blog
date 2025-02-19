@@ -10,7 +10,7 @@ menu:
     parent: life
 booktoc: true
 bookComments: true
-image: https://f004.backblazeb2.com/file/marryhasalittlesheemississipi/gum-graft/gum-graft-illustration.jpg
+image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1121767585f50a87_d20250211_m075546_c004_v0402024_t0051_u01739260546198
 imageDes: ""
 ---
 
