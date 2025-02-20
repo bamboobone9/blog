@@ -112,7 +112,7 @@ copyright = '© 2025 无竹斋'
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
   BookComments = true
-  enableTwikoo = true
+  twikooenable = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.

@@ -1,10 +1,11 @@
 <!-- This partial can be replaced to support other commenting engines -->
 <!--{{ template "_internal/disqus.html" . }}-->
 
-{{ if eq (hugo.Environment) "production" }}
+{{ if or (eq hugo.Environment "production") (eq hugo.Environment "development") }}
+
 <div class="book-tabs-content markdown-inner">
     <div id="tcomment"></div>
-        <script src="TBD"></script>
+        <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js"></script>
         <script>
             twikoo.init({
             envId: 'https://bamboobone9.netlify.app/.netlify/functions/twikoo',

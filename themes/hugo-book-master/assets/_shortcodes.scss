@@ -102,3 +102,16 @@
     }
   }
 }
+
+    // {{< spoiler>}}
+    .spoiler {
+  filter: blur(4px);
+  display: inline;
+  &:hover {
+    filter: blur(0);
+  }
+}
+
+.empty {
+  display: inline;
+}
