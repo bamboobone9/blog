@@ -1,31 +1,63 @@
 {{ define "main" }}
+<div class="latest-thoughts">
+    <h2>最近废话</h2>
+  {{ $latestThoughts := first 3 (where .Site.RegularPages "Type" "thoughts") }}  <!-- ✅ Fetch latest 3 posts from 'thoughts' -->
+  {{ if $latestThoughts }}
+    <div class="latest-thoughts-container">
+      {{ range $latestThoughts }}
+        <div class="thought-block">
+          <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>  <!-- ✅ Post title as a clickable link -->
+          <!-- ✅ Auto-generated preview (first 30 words from content) -->
+          <p>{{ .Content | plainify | truncate 200 "..." }}</p>
+
+<!--          <p><a href="{{ .RelPermalink }}" class="read-more">Read More →</a></p>-->
+        </div>
+      {{ end }}
+    </div>
+    <a href="{{ "/posts/thoughts/" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
+{{ end }}
+
+<br>
+
+  <br>
+
 <div class="heatmap">
-    <h2>废话产量</h2>
+  <h2>博文产量</h2>
       {{ partial "docs/heatmap" . }}
 </div>
-  <div class="latest-posts">
-    <h2>近期文章</h2>
+
+<br>
+
+
+<div class="latest-posts">
+  <h2>近期文章</h2>
     <ul class="latest-posts-list">
-      {{ range where .Site.RegularPages "Type" "not in" "docs" }}
+      {{ range where .Site.RegularPages "Type" "not in" (slice "docs" "thoughts") }}
         {{ if not .Params.exclude }}
           <li class="post-item">
             <a href="{{ .Permalink }}" class="post-image">
               <img src="{{ .Params.image | default "/images/default.jpg" }}" alt="{{ .Title }}">
             </a>
             <div class="post-content">
-              <p class="post-category">{{ .Params.category }}</p>
+              <p class="post-category">
+                {{ with .Params.categories }}
+                  {{ delimit . ", " }}
+                {{ else }}
+                  Uncategorized
+                {{ end }}
+              </p>
               <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
               <p class="post-meta">
                 <span class="post-date">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
                 <span class="post-read-time">📖 {{ .ReadingTime }} Min Read</span>
               </p>
-              <a href="{{ .Permalink }}" class="post-read-more">READ MORE</a>
+              <a href="{{ .Permalink }}" class="post-read-more">READ MORE →</a>
             </div>
           </li>
           <hr class="post-separator"> <!-- Separator line -->
         {{ end }}
       {{ end }}
     </ul>
-  </div>
+</div>
 {{ end }}
 

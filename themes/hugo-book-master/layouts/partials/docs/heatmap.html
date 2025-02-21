@@ -1,7 +1,7 @@
 <div id="heatmap" style="
-  max-width: 600px;
-  height: 140px;
-  padding: 2px;
+  max-width: 800px;
+  height: 200px;
+  padding: 8px;
   text-align: center;"
 ></div>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script>
@@ -74,7 +74,9 @@
 
   function getRangeArr() {
     const windowWidth = window.innerWidth;
-    if (windowWidth >= 600) {
+    if (windowWidth >= 800) {
+      return heatmap_width(14);
+    } else if (windowWidth >= 600) {
       return heatmap_width(12);
     } else if (windowWidth >= 400) {
       return heatmap_width(9);
