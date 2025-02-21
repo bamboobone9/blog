@@ -438,24 +438,24 @@ body[dir="rtl"] .book-menu {
   }
 }
 
+/*近期文章*/
 /* Container for the latest posts */
 .latest-posts {
-  max-width: 900px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Layout for each post item */
 .post-item {
   display: flex;
-  align-items: center;
   gap: 20px;
   padding: 20px 0;
 }
 
 /* Style for the post image */
 .post-image img {
-  width: 200px;  /* Adjust based on design */
-  height: 150px; /* Fixed height to maintain consistency */
+  width: 280px;  /* Adjust based on design */
+  height: 190px; /* Fixed height to maintain consistency */
   object-fit: cover;
   border-radius: 6px;
 }
@@ -463,6 +463,8 @@ body[dir="rtl"] .book-menu {
 /* Post content on the right */
 .post-content {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Category label */
@@ -470,12 +472,15 @@ body[dir="rtl"] .book-menu {
   font-size: 14px;
   color: gray;
   text-transform: uppercase;
+  margin-top: 0.5px;
+  margin-bottom: 5px; /* Adds slight spacing */
+  align-self: flex-start; /* Aligns with the top */
 }
 
 /* Title styling */
 .post-content h2 {
   font-size: 20px;
-  margin: 0px 0;
+  margin: 5px 0;
   min-height: 48px;
   display: flex;
   alighn-items: flex-start;
@@ -502,10 +507,13 @@ body[dir="rtl"] .book-menu {
   color: #333;
   text-decoration: none;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: auto;
+  margin-bottom: 15px;
   display: flex;
-  alighn-items: flex-end;
+}
 
+.post-read-more:hover {
+  text-decoration: underline;
 }
 
 /* Separator line between posts */
@@ -537,4 +545,37 @@ body[dir="rtl"] .book-menu {
     text-align: left;
     width: 100%;
   }
+}
+
+/*首页废话嘟嘟*/
+/* Read more link */
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #628aa2;
+  font-weight: bold;
+}
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.latest-thoughts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Space between different thought sections */
+}
+
+.thought-block {
+  background: #f9f9f9;
+  padding: 15px;
+  border-left: 5px solid  #628aa2;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.thought-block h3 {
+  margin: 0;
+  font-size: 18px;
 }
