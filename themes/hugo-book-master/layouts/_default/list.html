@@ -1,4 +1,8 @@
 {{ define "main" }}
+{{ if .IsHome }}
+  {{ .Scratch.Set "disableToC" true }}
+{{ end }}
+
 <div class="latest-thoughts">
     <h2>最近废话</h2>
   {{ $latestThoughts := first 3 (where .Site.RegularPages "Type" "thoughts") }}  <!-- ✅ Fetch latest 3 posts from 'thoughts' -->
@@ -16,7 +20,6 @@
     </div>
     <a href="{{ "/posts/thoughts/" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
 {{ end }}
-
 <br>
 
   <br>

@@ -33,19 +33,20 @@
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        {{ template "toc" . }} <!-- Table of Contents -->
-      </div>
+    {{ if and (default true (default .Site.Params.BookToC .Params.BookToC)) (eq .Type "post") }}
+      <aside class="book-toc">
+        <div class="book-toc-content">
+          {{ template "toc" . }} <!-- ✅ Shows ToC only for posts -->
+        </div>
       </aside>
     {{ else if eq .Type "post" }}
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        {{ partial "docs/taxonomy" . }} <!-- Tags and category -->
-      </div>
-    </aside>
+      <aside class="book-toc">
+        <div class="book-toc-content">
+          {{ partial "docs/taxonomy" . }} <!-- ✅ Shows taxonomy for posts -->
+        </div>
+      </aside>
     {{ end }}
+
   </main>
 
   {{ partial "docs/inject/body" . }}
