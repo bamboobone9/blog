@@ -4,7 +4,7 @@
 {{ end }}
 
 <div class="latest-thoughts">
-    <h2>最近废话</h2>
+    <h2>近期废话</h2>
   {{ $latestThoughts := first 3 (where .Site.RegularPages "Type" "thoughts") }}  <!-- ✅ Fetch latest 3 posts from 'thoughts' -->
   {{ if $latestThoughts }}
     <div class="latest-thoughts-container">
@@ -25,7 +25,7 @@
   <br>
 
 <div class="heatmap">
-  <h2>博文产量</h2>
+  <h2>近期产量</h2>
       {{ partial "docs/heatmap" . }}
 </div>
 
