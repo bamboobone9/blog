@@ -48,6 +48,7 @@ hasCJKLanguage = true
   url = "#"
   weight = 7
 
+
 [[menu.after]]
   identifier = "RSS"
   name = "RSS"
@@ -75,7 +76,7 @@ copyright = '© 2025 无竹斋'
 
   # (Optional, default none) Set the path to a logo for the book.
   # If the logo is /static/logo.png then the path would be logo.png
-  BookLogo = '/static/white_logo.png'
+  BookLogo = "white_logo.png"
 
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/

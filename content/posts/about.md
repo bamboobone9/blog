@@ -1,6 +1,7 @@
 ---
 type: docs
 title: "斋主人"
+BookComments: False
 menu:
   after:
     name: about
@@ -13,7 +14,8 @@ menu:
 <br>
 <br>
 
-![](/static/chun-yang.jpeg)
+<img src="https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f10287910ee36ab69_d20250304_m080613_c004_v0402014_t0039_u01741075573527" width="300">
+
 
 悲观的理想主义者  
 拖延的兴趣多动症  
@@ -36,6 +38,6 @@ menu:
 <br>
 
 你可以在以下平台找到我：<a href="https://www.instagram.com/bamboobone/" target="_blank">Instagram</a>  
-如果你喜欢我的博客，欢迎订阅 <a href="https://bamboobone9.com/index.xml" target="_blank">RSS</a>  
+如果你喜欢我的博客，欢迎通过 <a href="https://bamboobone9.com/index.xml" target="_blank">RSS 订阅</a>   
 有任何问题请通过邮件联系我：bamboobone9@gmail.com  
 如果你想支持我的创作，<a href="https://ko-fi.com/bamboobone" target="_blank">可以请我吃块炸鸡</a>

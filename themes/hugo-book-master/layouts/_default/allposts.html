@@ -1,0 +1,38 @@
+{{ define "main" }}
+<h1>所有文章</h1>
+
+<p class="rss-message">
+  <a href="https://bamboobone9.com/index.xml" target="_blank">
+    <img src="{{ "/RSS.png" | relURL }}" class="rss-message-icon">
+  </a>
+  推荐使用 <a href="https://bamboobone9.com/index.xml" target="_blank"> RSS 订阅</a> 获取更新
+</p>
+
+<ul class="latest-posts-list">
+  {{ range where .Site.RegularPages "Type" "not in" (slice "docs" "thoughts" "allposts") }}
+    {{ if not .Params.exclude }}
+      <li class="post-item">
+        <a href="{{ .Permalink }}" class="post-image">
+          <img src="{{ .Params.image | default "/images/default.jpg" }}" alt="{{ .Title }}">
+        </a>
+        <div class="post-content">
+          <p class="post-category">
+            {{ with .Params.categories }}
+              {{ delimit . ", " }}
+            {{ else }}
+              Uncategorized
+            {{ end }}
+          </p>
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p class="post-meta">
+            <span class="post-date">📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+            <span class="post-read-time">📖 {{ .ReadingTime }} Min Read</span>
+          </p>
+          <a href="{{ .Permalink }}" class="post-read-more">READ MORE →</a>
+        </div>
+      </li>
+      <hr class="post-separator"> <!-- Separator line -->
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}

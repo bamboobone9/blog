@@ -1,6 +1,7 @@
 ---
 type: docs
 title: "故纸堆"
+BookComments: False
 menu:
   after:
     name: archive

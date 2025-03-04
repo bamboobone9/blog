@@ -47,7 +47,7 @@ menu:
 约等于有只可爱金毛的友邻，自从前两年从南湾搬来旧金山之后立刻成为新一代旧金山安利大使  
 
 [The Wandering Allison](https://thewanderingallison.github.io/)  
-不记得为什么在我的收藏夹里的博客站点，可能因为博主持续记录读书记录  
+同为豆豉站前房客，持续更新读书记录的友邻  
 
 
 ---
