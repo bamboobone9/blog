@@ -5,20 +5,35 @@
 
 <div class="latest-thoughts">
     <h2>近期废话</h2>
-  {{ $latestThoughts := first 3 (where .Site.RegularPages "Type" "thoughts") }}  <!-- ✅ Fetch latest 3 posts from 'thoughts' -->
-  {{ if $latestThoughts }}
-    <div class="latest-thoughts-container">
-      {{ range $latestThoughts }}
-        <div class="thought-block">
-          <h3><a href="{{ .RelPermalink}}">{{ .Title }}</a></h3>  <!-- ✅ Post title as a clickable link -->
-          <!-- ✅ Auto-generated preview (first 30 words from content) -->
-          <p>{{ .Content | plainify | truncate 200 "..." }}</p>
+     <!-- ✅ Fetch latest 3 thoughts for desktop view -->
+    {{ $latestThoughts := first 2 (where .Site.RegularPages "Type" "thoughts") }}
 
-<!--          <p><a href="{{ .RelPermalink }}" class="read-more">Read More →</a></p>-->
+    <!-- ✅ Fetch only 1 thought for mobile view -->
+    {{ $latestThoughtMobile := first 1 $latestThoughts }}
+
+    {{ if $latestThoughts }}
+      <div class="latest-thoughts-container">
+        <!-- ✅ Desktop View: Show 3 thoughts -->
+        <div class="latest-thoughts-desktop">
+          {{ range $latestThoughts }}
+            <div class="thought-block">
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Content | plainify | truncate 300 "..." }}</p>
+            </div>
+          {{ end }}
         </div>
-      {{ end }}
-    </div>
-    <a href="{{ "/posts/thoughts/" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
+
+        <!-- ✅ Mobile View: Show only 1 thought -->
+        <div class="latest-thoughts-mobile">
+          {{ range $latestThoughtMobile }}
+            <div class="thought-block">
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p>{{ .Content | plainify | truncate 200 "..." }}</p>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    <a href="{{ "./posts/thoughts/" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
 {{ end }}
 <br>
 
@@ -34,6 +49,12 @@
 
 <div class="latest-posts">
   <h2>近期文章</h2>
+  <p class = "rss-message">
+          <a href="https://bamboobone9.com/index.xml" target="_blank">
+            <img src="{{ "./RSS.png" | relURL }}" class="rss-message-icon">
+          </a>
+          推荐使用 <a href="https://bamboobone9.com/index.xml" target="_blank"> RSS 订阅</a> 获取更新
+        </p>
     <ul class="latest-posts-list">
       {{ range where .Site.RegularPages "Type" "not in" (slice "docs" "thoughts") }}
         {{ if not .Params.exclude }}
@@ -62,5 +83,6 @@
       {{ end }}
     </ul>
 </div>
+  <a href="{{ "./posts/allposts" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
 {{ end }}
 

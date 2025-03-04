@@ -560,11 +560,12 @@ body[dir="rtl"] .book-menu {
   text-decoration: underline;
 }
 
-.latest-thoughts-container {
-  display: flex;
-  flex-direction: column;
-  gap: 12px; /* Space between different thought sections */
-}
+// .latest-thoughts-container {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px; /* Space between different thought sections */
+// }
+
 
 .thought-block {
   background: #f9f9f9;
@@ -578,4 +579,63 @@ body[dir="rtl"] .book-menu {
 .thought-block h3 {
   margin: 0;
   font-size: 18px;
+}
+
+/* 🖥️ Desktop: Show 3 thoughts */
+.latest-thoughts-desktop {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Space between different thought sections */
+}
+
+/* 📱 Mobile: Hide desktop thoughts */
+.latest-thoughts-mobile {
+  display: none;
+}
+
+/* ✅ On small screens, show only 1 thought */
+@media (max-width: 768px) {
+  .latest-thoughts-desktop {
+    display: none;
+  }
+  .latest-thoughts-mobile {
+    display: block;
+  }
+}
+
+/* 废话篓订阅提示*/
+.custom-category-message {
+  font-size: 18px;
+//   font-weight: bold;
+  background: #f9f9f9;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.custom-category-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  vertical-align: middle;
+}
+
+/* RSS订阅提示*/
+.rss-message {
+  font-size: 18px;
+//   font-weight: bold;
+  background: #f9f9f9;
+  max-width: 800px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+.rss-message-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  vertical-align: middle;
 }
