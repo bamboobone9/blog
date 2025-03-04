@@ -56,7 +56,7 @@
           推荐使用 <a href="https://bamboobone9.com/index.xml" target="_blank"> RSS 订阅</a> 获取更新
         </p>
     <ul class="latest-posts-list">
-      {{ range where .Site.RegularPages "Type" "not in" (slice "docs" "thoughts") }}
+      {{ range where .Site.RegularPages "Type" "in" (slice "post" ) }}
         {{ if not .Params.exclude }}
           <li class="post-item">
             <a href="{{ .Permalink }}" class="post-image">
@@ -83,6 +83,6 @@
       {{ end }}
     </ul>
 </div>
-  <a href="{{ "./posts/allposts" | relURL }}" class="read-more">View More →</a>  <!-- ✅ Link to category -->
+  <a href="{{ "./posts/allposts" | relURL }}" class="read-more">View All →</a>  <!-- ✅ Link to category -->
 {{ end }}
 
