@@ -48,17 +48,16 @@ imageDes: Photo by Nataliya Vaitkevich https://www.pexels.com/photo/white-click-
 
 <br>
 
-# TLDR版本
+# 我的方案TLDR版本
 
 1. 雇主如果有 401k match，先交到公司 match 的 X%。这部分钱可以存 401K 和 Traditional Roth两种账户；
 2. 税后收入每月按一定数量存入 Emergency Funds 直到存满 （保证你没有收入也能生存 3-6个月 ）；
 3. 在存 Emergency Funds 的同时存另一部分钱到 Roth IRA 账户，直到存满每年上限 $7,000 （这部分钱是要自己操作管理的）；2和3可以同时进行，从头开始存 Emergency Funds 需要存很久，不要浪费 Roth IRA 每年的额度。
-4. 1、2、3都存满的情况下还有余钱，可以调高 401k/ Trditional Roth 的比例，直到存满每年上限的 $23,500；
-5. 如果真的还有剩，可能就买点 I-bonds 或者大盘基金。
+4. 1、2、3都存满的情况下还有余钱，就需要做一下选择了：
+    1. 不急着买房买车进行大额消费，但很在意早存多存退休账户的，可以调高 401k/ Trditional Roth 的比例，直到存满每年上限的 $23,500；
+    2. 如果想保持资金的灵活性（比如几年后就要买房）低风险的可以买 I-bonds 等债券，存定期存款（CD），甚至就直接放 High Yield Cash Account；有风险的操作是用普通股票账户定投大盘。
 
-如果1-4都存满（也就是说一年至少存下了 $30,000）还剩很多钱，要么你不算你所在地区的中低收入，要么你特会省钱，肯定比我更会管理钱，可能不太需要这篇文章里的内容。
-
-收入高的，有公司股票的或者有房产的懒人可以看椒老师这篇：[小白友好美国理财 101 第二版](https://blog.douchi.space/personal-finance-for-dummies-2-0/#backdoor-ira)
+收入高的AKA余钱很多的，有公司股票的或者有房产的懒人可以看椒老师这篇：[小白友好美国理财 101 第二版](https://blog.douchi.space/personal-finance-for-dummies-2-0/#backdoor-ira)
 
 ---
 
@@ -183,7 +182,7 @@ Roth IRA 的具体操作方式是：
 
 这些字母组合都是打开你的股票账户平台，就可以搜到并购买的基金。V打头的是 Vanguard 家的，F打头的是 Fidelity 家的，这两家名字看着都眼熟吗？因为他们都是著名投资管理公司，也是共同基金(Mutual Funds)提供商。很多人的 401K 就是 Vanguard 家在管理。
 
-实在不想自己做决定买什么，可以直接让 chatgpt 帮你选，或者跟着你信任且相对比较了解的朋友买。   
+我自己买的是 VOO 和 IVV （不要问我为什么，忘了从哪儿抄来的）实在不想自己做决定买什么，可以直接让 chatgpt 帮你选，或者跟着你信任且相对比较了解的朋友买。   
 
 <br>
 
