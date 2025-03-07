@@ -643,15 +643,16 @@ body[dir="rtl"] .book-menu {
   flex-wrap: wrap;
   gap: 12px;
   padding: 20px;
-  text-align: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: left;
+  max-width: 800px;
 }
 
 .tag-item {
   text-decoration: none;
-  color: #628aa2;
-  font-weight: bold;
+//   color: #628aa2;
   transition: 0.2s ease-in-out;
+  text-align: bottom;
 }
 
 .tag-item:hover {
