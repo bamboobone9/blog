@@ -1,13 +1,22 @@
-
 <ul>
-  {{ range (first 25 (where .Site.RegularPages "Type" "post")) }}
+  {{ range (first 99 (where .Site.RegularPages "Type" "post")) }}
     <li>
       <a href="{{ .RelPermalink}}">{{ .Title }}</a>
+     <!-- ✅ Show category before tags (Fixes the URL issue) -->
+      {{ $category := index .Params.categories 0 }} <!-- Get the first category -->
+      {{ with $category }}
+        <span class="post-category">
+          [ <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" class="archive-category">{{ . }}</a> ]  <!-- ✅ Proper category URL -->
+        </span>
+      {{ end }}
+
+
       {{range (first 3 (.Params.tags))}}
-        {{ $tagColor := substr (md5 .) 0 6}}
-        <!-- hex code attach opacity to end of code, 1A is 10% opacity  -->
-        <!-- to add link here, you'd need to search Taxonomies for url, but it doesn't have chinese tag -->
-      {{end }}
+        {{ $tagPage := site.GetPage (printf "tags/%s" (. | urlize)) }}  <!-- ✅ Get the correct tag page -->
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="archive-tag" style="background-color: #f6f8fa;">{{ . }}</a>
+        {{ end }}
+
+      <div class="archive">- {{.Date.Format "2006-01-02"}}</div>
     </li>
   {{ end }}
 </ul>

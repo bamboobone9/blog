@@ -2,6 +2,7 @@ baseURL = 'https://bamboobone9.com/public'
 languageCode = 'zh-CN'
 title = '无竹斋'
 theme = "hugo-book-master"
+googleAnalytics = "G-3JF7K30G2V"
 
 # Book configuration
 disablePathToLower = true

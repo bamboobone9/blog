@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>🏷️ Tag Cloud</h1>
+
+<div class="tag-cloud">
+  <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="archive-tag" style="background-color: #f6f8fa;">{{ . }}</a>
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ $count := len $taxonomy.page }}  <!-- ✅ Count the number of posts per tag -->
+    {{ $minSize := 12 }}           <!-- ✅ Minimum font size in px -->
+    {{ $maxSize := 40 }}           <!-- ✅ Maximum font size in px -->
+    {{ $scale := div (sub $maxSize $minSize) 10.0 }} <!-- ✅ Scaling factor -->
+
+    <!-- ✅ Ensure font size does not exceed $maxSize -->
+    {{ $fontSize := add $minSize (mul (cond (gt $count 10) 10 $count) $scale) }}
+
+    <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}/"
+       class="tag-item"
+       style="font-size: {{ $fontSize }}px;">
+      {{ $name }}
+    </a>
+  {{ end }}
+</div>
+{{ end }}
+

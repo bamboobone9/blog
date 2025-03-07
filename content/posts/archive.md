@@ -18,3 +18,5 @@ menu:
 
 {{< archive >}} 
 
+{{< tag-cloud >}}
+
