@@ -8,7 +8,7 @@ tags: ["北美生活", "咸鱼理财" ]
 menu:
   main:
     parent: shopping
-image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f103db50113deafec_d20250305_m090200_c004_v0402005_t0056_u01741165320089
+image: https://img.bamboobone9.com/easy-finance-guide-for-busy-jane-coverpic.jpg
 imageDes: Photo by Nataliya Vaitkevich https://www.pexels.com/photo/white-click-pen-on-white-paper-8062358/
 ---
 

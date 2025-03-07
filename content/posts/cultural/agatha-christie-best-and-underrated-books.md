@@ -7,7 +7,7 @@ tags: ["书评", "Review", "推理/犯罪小说", "女性"]
 menu:
   main:
     parent: cultural
-image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f113e49500d215e72_d20250307_m071647_c004_v0402009_t0033_u01741331807499
+image: https://img.bamboobone9.com/agatha/christine-agatha.jpg
 bookComments: true
 ---
 
@@ -30,7 +30,7 @@ bookComments: true
 
 ![](/reading.png)
 
-# 路人皆知的神作
+## 路人皆知的神作
 
 
 >- 无人生还 And Then There Were None
@@ -50,10 +50,10 @@ And Then There Were None 的标题起得太妙了，我读完书之后就曾忍�
 `十个小黑人 (1987) 1987 / 苏联 / 斯坦尼斯拉夫·戈沃鲁辛 / 亚历山大·凯伊达诺夫斯基 柳德米拉·马克萨科娃`  
 我个人很喜欢的版本，对原著还原度极高。但是俄语看字幕累人，资源也不好找。很想看央视译制片版本。
 
-`无人生还 (2015) 2015 / 英国 / 悬疑 犯罪 / 克雷格·比贝洛斯 / 查尔斯·丹斯 梅芙·德莫迪 ` 
+`无人生还 (2015) 2015 / 英国 / 悬疑 犯罪 / 克雷格·比贝洛斯 / 查尔斯·丹斯 梅芙·德莫迪 `   
 BBC出品的制作水准堪比电影。 演员大多是英国中老年实力派演员，英国人演英国人，那叫一个原汁原味。这个版本剧情上有一些改动。  
 
-![BBC迷你剧版剧照](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1104e4c4897078ba_d20250307_m071647_c004_v0402028_t0027_u01741331807333)
+![BBC迷你剧版剧照](https://img.bamboobone9.com/agatha/And_then_there_where_none_BBC.jpg)
 
 
 <br>
@@ -62,7 +62,8 @@ BBC出品的制作水准堪比电影。 演员大多是英国中老年实力派�
 《东快》是很符合我中二价值观的一部作品，核心诡计也非常精彩。
 
 
-![itv 版剧照，有 Jessica Chastain 哦](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f11628dec3575de24_d20250307_m071648_c004_v0402005_t0030_u01741331808437)
+![itv 版剧照，有 Jessica Chastain 哦](https://img.bamboobone9.com/agatha/itv_murder_on_the_orient_express.jpg)
+
 
 `东方快车谋杀案 (1974) 1974 / 英国 / 剧情 悬疑 犯罪 / 西德尼·吕美特 / 阿尔伯特·芬尼 劳伦·白考尔`  
 群星荟萃的版本，看起来很过瘾
@@ -78,11 +79,11 @@ itv版本，有劳模姐 Jessica Chastain
 <br>
 
 
-# “我叫赫尔克里·波洛，是一名高中生……啊不……一名私家侦探”
+## “我叫赫尔克里·波洛，是一名高中生……啊不……一名私家侦探”
 
 >- 《斯泰尔斯庄园奇案》：阿婆的第一部长篇作品，就已经胜过很多很多人能够写出的最好作品了。这也是波洛的第一次亮相。  
 >- 《高尔夫球场命案》：案子非常精彩，但黑斯廷斯的感情故事太酸了，每次他觉得自己遇到真爱的时候我都想合上书。  
->- 罗杰疑案》：不要搜任何推荐和评价，直接读。是里程碑式的作品。  
+>- 《罗杰疑案》：不要搜任何推荐和评价，直接读。是里程碑式的作品。  
 >- 《人性记录》：距离上次看已经五年了，最近就重读了一遍，看到揭秘部分依然觉得精彩。  
 >- 《三幕悲剧》  
 >- 《古墓之谜》：我怀疑这本是阿婆跟着第二任考古学家丈夫外出考古时获得的写作灵感。  
@@ -96,17 +97,17 @@ itv版本，有劳模姐 Jessica Chastain
 
 
 
-![David Suchet 版本波洛](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1147f27b6b2e9bac_d20250307_m071648_c004_v0402004_t0059_u01741331808721)
+![David Suchet 版本波洛](https://img.bamboobone9.com/agatha/poirot_david_suchet.jpg)
 
 
 <br>
 
-# 人性之恶尽在圣玛丽米德
+## 人性之恶尽在圣玛丽米德
 
 马普尔小姐是我最最最喜欢的一位侦探角色，itv版本的系列英剧的第一位主演 Geraldine McEwan 的成功演绎功不可没。马普尔小姐系列是我少有的通过影视作品对某个小说系列产生兴趣之后再去补原著的作品。如果不喜欢阿婆慢节奏的小说，强烈推荐去看 itv 版本的英剧，编剧还经常会在角色里加入百合CP！
 
 
-![itv版本两任马普尔小姐](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f10714d450eeea6c8_d20250307_m071647_c004_v0402028_t0024_u01741331807790)
+![itv版本两任马普尔小姐](https://img.bamboobone9.com/agatha/itv_miss_marple.jpg)
 
 <br>
 
@@ -121,11 +122,11 @@ itv版本，有劳模姐 Jessica Chastain
 
 <br>
 
-![所有影视版本的马普尔小姐](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f104e01c332f37206_d20250307_m071646_c004_v0402020_t0011_u01741331806537)
+![所有影视版本的马普尔小姐](https://img.bamboobone9.com/agatha/miss_marple_actresses.jpg)
 
 <br>
 
-# 其他系列或不成系列的作品推荐
+## 其他系列或不成系列的作品推荐
 >- 《褐衣男子》：非常推荐这本冒险爱情小说，在阿婆的作品里是很特别的存在。主人公安妮很有魅力，她是阿婆笔下除了马普尔小姐之外我最喜爱的女性角色。这本书的悬念设置和故事编排延续了阿加莎一贯的风格，构思巧妙且环环相扣，和她典型的侦探故事一样，吸引人一口气读完。以现在的眼光看，她这是套着悬疑故事皮的玛丽苏言情啊！只是她写得太好，玛丽苏言情都让人看得津津有味。遗憾的是，安妮的故事没有写成一个系列。这本书再次证明阿加莎不仅是侦探小说女王，她是一位可以驾驭不同类型、拥有高超叙事技巧的伟大作家。
 >- 《零时》/《走向决定性的时刻》
 >- 《怪屋》：和另一位作者的名作撞梗了。阿婆故事里的人物塑造得非常好，让揭秘很有说服力。
@@ -135,19 +136,19 @@ itv版本，有劳模姐 Jessica Chastain
 <br>
 
 
-# 剧本
->- 《捕鼠器》：我还没机会看过现场演出，但最近看了个致敬《捕鼠器》（我甚至觉得是在黑阿婆）的电影 See How They Run，案子质量一般，但看起来轻松愉快。
+## 剧本
+>- 《捕鼠器》：我还没机会看过现场演出.但最近看了个致敬《捕鼠器》（我甚至觉得是在黑阿婆）的电影 See How They Run，电影案子质量一般，但看起来轻松愉快。
 >- 《控方证人》：改编自阿加莎短篇小说 The Witness for the Prosecution 的电影。1957年的黑白电影，我在六十年之后看，还是非常震撼。Charles Laughton 演的老爵士真是个可爱的老头，另一位重要角色的出演者 Marlene Dietrich 演一位美丽的年轻女子，实际上演员已经五十六岁了，我认为这才是本片最大悬念=。=
 
 <br>
 
-# 其它
+## 其它
 >- 《阿加莎·克里斯蒂自传》：几年前出中文版译本的时候我也读了一部分，确实没有阿加莎写的推理小说吸引我；我又向来是个不爱读传记的人，对喜欢的文化产品的创作者本人也没太大兴趣。但读者对这本自传的评价都很高，值得一读。
 
 <br>
 
-# 参考
-[按系列分类且带不同版本中文译名的作品年表](https://www.douban.com/link2/?url=https%3A%2F%2Fzhuanlan.zhihu.com%2Fp%2F31976234&link2key=d5c4f8d067)
+## 参考
+[按系列分类且带不同版本中文译名的作品年表](https://zhuanlan.zhihu.com/p/31976234)
 
 ![](/reading.png)
 
