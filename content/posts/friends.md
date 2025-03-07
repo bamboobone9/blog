@@ -38,7 +38,7 @@ menu:
 帮她乡设计了公开网站的热心香柚，和她对象共写的博客
 
 [第三夏尔](https://thirdshire.com/)  
-分享了很多hugo建站的内容
+分享了很多hugo建站的内容，生活类的更新我也很爱看，还是 YNAB 同好（这也能叫“同好”？🫣）
 
 [锁麟囊](https://www.kylinbag.top/article/BirchMarinePlywood)  
 有一些神奇的兴趣重叠

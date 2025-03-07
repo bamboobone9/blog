@@ -1,23 +1,29 @@
-{{ define "main" }}
-<h1>🏷️ Tag Cloud</h1>
+<div id="theme-tagcloud" class="tag-cloud" style="margin-bottom: 15px;margin-tp: 15px">
+{{ $tags := $.Site.Taxonomies.tags.ByCount }}
+{{ $v1 := where $tags "Count" ">=" 0 }}
+{{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
 
-<div class="tag-cloud">
-  <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="archive-tag" style="background-color: #f6f8fa;">{{ . }}</a>
-  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-    {{ $count := len $taxonomy.page }}  <!-- ✅ Count the number of posts per tag -->
-    {{ $minSize := 12 }}           <!-- ✅ Minimum font size in px -->
-    {{ $maxSize := 40 }}           <!-- ✅ Maximum font size in px -->
-    {{ $scale := div (sub $maxSize $minSize) 10.0 }} <!-- ✅ Scaling factor -->
+{{ $minSize := 16}}
+{{ $scaleFactor := 5}}
+ {{ $colors := slice "#8DB3C9" "#6D99B5" "#4E80A1" "#2E668C" "#0B3954" }}
+  {{ $maxThreshold := 10 }}  <!-- Post count threshold for darkest color -->
 
-    <!-- ✅ Ensure font size does not exceed $maxSize -->
-    {{ $fontSize := add $minSize (mul (cond (gt $count 10) 10 $count) $scale) }}
+{{ range $v2 }}
+{{ if .Term }}
+{{ $tagURL := printf "tags/%s" .Term | relURL }}
 
-    <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}/"
-       class="tag-item"
-       style="font-size: {{ $fontSize }}px;">
-      {{ $name }}
-    </a>
-  {{ end }}
-</div>
+    {{$scaledSize := mul .Count $scaleFactor}}
+    {{ $finalSize := cond (gt $scaledSize $minSize) $scaledSize $minSize }} <!-- Ensure at least minSize -->
+
+ <!-- Scale color based on post count -->
+{{ $rawIndex := div (mul .Count 5) $maxThreshold }}
+      {{ $colorIndex := math.Floor $rawIndex | int }}  <!-- ✅ Convert float to int -->
+      {{ $colorIndex := cond (lt $colorIndex 5) $colorIndex 4 }}  <!-- ✅ Ensure within range -->
+      {{ $tagColor := index $colors $colorIndex }}
+
+
+<a href="{{ $tagURL }}" class="tag-item" style= "font-size: {{ $finalSize }}px; color: {{ $tagColor }};">{{ .Term }} <span class="badge">({{ .Count }})</span></a>
 {{ end }}
+{{ end }}
+</div>
 

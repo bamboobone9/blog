@@ -37,7 +37,10 @@
   h6 {
     font-weight: bolder;
   }
-
+/*
+  h4 {
+    background: #eaecef;
+  }*/
   h5 {
     font-size: 0.875em;
   }
@@ -209,4 +212,8 @@
   > :last-child {
     margin-bottom: 0;
   }
+}
+
+.highlight {
+    background: #eaecef;
 }
