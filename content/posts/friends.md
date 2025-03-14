@@ -49,6 +49,9 @@ menu:
 [The Wandering Allison](https://thewanderingallison.github.io/)  
 同为豆豉站前房客，持续更新读书记录的友邻  
 
+[alle zeit der welt | 世界上所有的时间](https://allezeitderwelt.github.io/)
+名字很美的博客，相遇于友情链接串起的博客网络里的一位博友；博友喜欢写作，我喜欢读她的文字。
+
 
 ---
 <br>
