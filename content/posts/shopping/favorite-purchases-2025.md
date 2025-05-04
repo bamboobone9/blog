@@ -8,8 +8,8 @@ tags: ["好物推荐","穿搭"]
 menu:
   main:
     parent: shopping
-image: https://img.bamboobone9.com/favorite-purchases/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg
-imageDes: Photo by Alyssa Strohmann on Unsplash
+image: https://img.bamboobone9.com/favorite-purchases/examing-the-etchings-by laura-knight.jpg
+imageDes: Examining the etchings by Dame Laura Knight
 ---
 
 该系列断更了好几年，我现在也不好意思继续称其为胶囊衣柜了。总体而言，近几年买衣服都更慎重，对衣服品质和搭配的要求更高了。即使单件的平均价格逐渐升高，每年的总支出却没太大变化甚至比刚工作那会儿还有所下降。我自认为是朝着好的方向变化，对自己的穿衣风格更加有直觉性的感知（理性总结是不可能的，我只凭直觉和想象做判断），每次购买的非功能性单品都能最大限度地搭配已有衣物。
