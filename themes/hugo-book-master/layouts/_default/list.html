@@ -6,7 +6,7 @@
 <div class="latest-thoughts">
     <h2>近期废话</h2>
      <!-- ✅ Fetch latest 3 thoughts for desktop view -->
-    {{ $latestThoughts := first 2 (where .Site.RegularPages "Type" "thoughts") }}
+    {{ $latestThoughts := first 3 (where .Site.RegularPages "Type" "thoughts") }}
 
     <!-- ✅ Fetch only 1 thought for mobile view -->
     {{ $latestThoughtMobile := first 1 $latestThoughts }}
@@ -18,7 +18,7 @@
           {{ range $latestThoughts }}
             <div class="thought-block">
               <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-              <p>{{ .Content | plainify | truncate 300 "..." }}</p>
+              <p>{{ .Content | plainify | truncate 150 "..." }}</p>
             </div>
           {{ end }}
         </div>
@@ -28,7 +28,7 @@
           {{ range $latestThoughtMobile }}
             <div class="thought-block">
               <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-              <p>{{ .Content | plainify | truncate 200 "..." }}</p>
+              <p>{{ .Content | plainify | truncate 100 "..." }}</p>
             </div>
           {{ end }}
         </div>
