@@ -22,6 +22,7 @@
       {{ $tagColor := index $colors $colorIndex }}
 
 
+
 <a href="{{ $tagURL }}" class="tag-item" style= "font-size: {{ $finalSize }}px; color: {{ $tagColor }};">{{ .Term }} <span class="badge">({{ .Count }})</span></a>
 {{ end }}
 {{ end }}
