@@ -188,6 +188,32 @@ a .book-icon {
   }
 }
 
+// 卡片样式
+.db-card {
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+    word-break: break-all;
+    background: #d2e5eb14;
+    box-shadow: 0 6px 10px 0 #00000033;
+    .content {
+      line-height: 30px;
+    }
+}
+
+.linkcard { display:flex; gap:14px; align-items:stretch; text-decoration:none; color:inherit; }
+.linkcard-img { width:120px; height:160px; object-fit:cover; border-radius:6px; flex:0 0 auto; }
+.linkcard-title { font-weight:700; }
+.linkcard-desc { color: #666;
+  margin-top: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;   /* 👈 number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  max-height: calc(1.5em * 5); /* fallback */ }
+.linkcard-url { color:#999; margin-top:10px; font-size:12px; word-break:break-all; }
+
 
 
 // for RTL support

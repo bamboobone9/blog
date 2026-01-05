@@ -1,0 +1,32 @@
+{{- $url := .Get 0 -}}
+{{- $data := dict -}}
+
+{{/* Try to fetch remote HTML */}}
+{{- $res := resources.GetRemote $url -}}
+{{- with $res -}}
+  {{- $html := .Content | safeHTML -}}
+  {{/* naive OG parsing via regex (works on many sites, not all) */}}
+  {{- $title := (findRE `(?i)<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']` $html 1) -}}
+  {{- $img   := (findRE `(?i)<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']` $html 1) -}}
+  {{- $desc  := (findRE `(?i)<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']` $html 1) -}}
+
+  {{- $t := "" -}}{{- if $title -}}{{- $t = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $title 0) -}}{{- end -}}
+  {{- $i := "" -}}{{- if $img -}}{{- $i = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $img 0) -}}{{- end -}}
+  {{- $d := "" -}}{{- if $desc -}}{{- $d = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $desc 0) -}}{{- end -}}
+
+  <a class="db-card linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+    {{ if $i }}<img class="linkcard-img" src="{{ $i }}" alt="{{ $t }}">{{ end }}
+    <div class="content">
+      <div class="linkcard-title">{{ if $t }}{{ $t }}{{ else }}{{ $url }}{{ end }}</div>
+      {{ if $d }}<div class="linkcard-desc">{{ $d }}</div>{{ end }}
+      <div class="linkcard-url">{{ $url }}</div>
+    </div>
+  </a>
+  <div style="height: 1em;"></div>
+{{- else -}}
+  <a class="db-card linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+    <div class="content">
+      <div class="linkcard-title">{{ $url }}</div>
+    </div>
+  </a>
+{{- end -}}
