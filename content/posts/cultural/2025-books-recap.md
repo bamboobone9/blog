@@ -74,7 +74,7 @@ bookComments: true
 
 {{< linkcard "https://book.douban.com/subject/26246928/" >}}
 
-👉 [如果对阿婆笔下罪案更精彩更经典的作品感兴趣，欢迎阅读这篇博文。](posts/cultural/agatha-christie-best-and-underrated-books.md)
+👉 [如果对阿婆笔下罪案更精彩更经典的作品感兴趣，欢迎阅读这篇博文。](https://bamboobone9.com/posts/cultural/agatha-christie-best-and-underrated-books/)
 
 <br>
 
