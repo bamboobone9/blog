@@ -20,7 +20,9 @@ bookComments: true
 <br>
 
 1. 恶魔少年  
-药丸岳 / 2022 / 海南出版社  
+
+{{< linkcard "https://book.douban.com/subject/36157422/" >}}
+
 难得好看的社会派推理 
 ---
 2. 人性记录  
