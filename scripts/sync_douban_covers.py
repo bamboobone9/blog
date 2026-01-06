@@ -27,6 +27,7 @@ HEADERS = {
     "Referer": "https://book.douban.com/",
 }
 
+
 def download_image(url: str) -> bytes:
     r = requests.get(url, headers=HEADERS, timeout=20)
     r.raise_for_status()
@@ -44,7 +45,7 @@ def upload_webp(key: str, webp_bytes: bytes) -> str:
         Key=key,
         Body=webp_bytes,
         ContentType="image/webp",
-        ACL="public-read",
+        # ACL="public-read",
         CacheControl="public, max-age=31536000, immutable",
     )
     # public URL pattern depends on your setup; common S3-style:
@@ -53,10 +54,15 @@ def upload_webp(key: str, webp_bytes: bytes) -> str:
 def main():
     with open("books.csv", newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
+        #print("FIELDNAMES:", reader.fieldnames)
+
         for row in reader:
             slug = row["slug"].strip()
             url = row["douban_image_url"].strip()
+            print("AFTER STRIP:", repr(slug), repr(url))
+            #print("ROWS:", len(row))
             if not slug or not url:
+                print("SKIP empty row")
                 continue
 
             key = f"{B2_PREFIX}/{slug}.webp"
@@ -64,7 +70,11 @@ def main():
 
             try:
                 img = download_image(url)
+                print("Downloaded bytes:", len(img))
+
                 webp = to_webp(img)
+                print("Webp bytes:", len(webp))
+
                 out_url = upload_webp(key, webp)
                 print("OK:", out_url)
             except Exception as e:

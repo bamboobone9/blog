@@ -14,8 +14,25 @@
   {{- $i := "" -}}{{- if $img -}}{{- $i = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $img 0) -}}{{- end -}}
   {{- $d := "" -}}{{- if $desc -}}{{- $d = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $desc 0) -}}{{- end -}}
 
+  {{- $finalImg := $i -}}
+
+  {{- /* If this is Douban, prefer our Backblaze cached cover */ -}}
+  {{- if findRE `https?://book\.douban\.com/subject/\d+/?` $url -}}
+    {{- $sidMatch := findRE `subject/(\d+)` $url 1 -}}
+    {{- if $sidMatch -}}
+      {{- $sid := replaceRE `(?s)^.*subject/(\d+).*$` `$1` (index $sidMatch 0) -}}
+
+      {{- /* CHANGE THESE TWO to your actual host + prefix */ -}}
+      {{- $b2Base := "https://img.bamboobone9.com" -}}
+      {{- $b2Prefix := "douban-covers" -}}
+
+      {{- $b2Img := printf "%s/%s/book-%s.webp" $b2Base $b2Prefix $sid -}}
+      {{- $finalImg = $b2Img -}}
+    {{- end -}}
+  {{- end -}}
+
   <a class="db-card linkcard" href="{{ $url }}" target="_blank" rel="noopener">
-    {{ if $i }}<img class="linkcard-img" src="{{ $i }}" alt="{{ $t }}">{{ end }}
+    {{ if $finalImg }}<img class="linkcard-img" src="{{ $finalImg }}" alt="{{ $t }}">{{ end }}
     <div class="content">
       <div class="linkcard-title">{{ if $t }}{{ $t }}{{ else }}{{ $url }}{{ end }}</div>
       {{ if $d }}<div class="linkcard-desc">{{ $d }}</div>{{ end }}
