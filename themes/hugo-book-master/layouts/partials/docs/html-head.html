@@ -14,7 +14,7 @@
 <title>{{ partial "docs/html-head-title" . }}</title>
 {{ partial "docs/html-head-favicon" . }}
 
-{{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" site }}
+{{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate "manifest.json" . }}
 <link rel="manifest" href="{{ $manifest.RelPermalink }}">
 <link rel="canonical" href="{{ .Permalink }}">
 
@@ -23,17 +23,17 @@
 {{- end -}}
 
 <!-- Theme stylesheet, you can customize scss by creating `assets/custom.scss` in your website -->
-{{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" site | css.Sass | resources.Minify | resources.Fingerprint }}
+{{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | css.Sass | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" {{ template "integrity" $styles }}>
 {{- if default true .Site.Params.BookSearch -}}
   {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
-  {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile site | resources.Minify | resources.Fingerprint }}
+  {{- $searchJS := resources.Get "search.js" | resources.ExecuteAsTemplate $searchJSFile . | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ "fuse.min.js" | relURL }}"></script>
   <script defer src="{{ $searchJS.RelPermalink }}" {{ template "integrity" $searchJS }}></script>
 {{ end -}}
 
 {{- if .Site.Params.BookServiceWorker -}}
-  {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" site | resources.Minify | resources.Fingerprint }}
+  {{- $swJS := resources.Get "sw-register.js" | resources.ExecuteAsTemplate "sw.js" . | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $swJS.RelPermalink }}" {{ template "integrity" $swJS }}></script>
 {{ end -}}
 
