@@ -44,7 +44,6 @@ The exhibition honors the intensity of their connection while also lifting Moris
 ### “幸运者” Berthe Morisot
 
 她是那个年代少见的、敢于用本名署名作品的女性艺术家；也是极少数在结婚、生育之后，仍然能继续创作和展出作品的“幸运者”。
-
 Berthe Morisot 来自一个富裕的家庭，她和妹妹从小就获得学习绘画的机会。她俩曾明确表示不打算结婚以免中断了作画。后来她妹妹与一位海军军官结婚之后基本停止了专业创作。Morisot 则坚持了下来，她33岁时才与 Édouard Manet 的弟弟 Eugene Manet 结婚。Eugene 的艺术才华比不上 Berthe 和哥哥 Édouard Manet，但他通过他哥哥的生活了解“伟大的艺术需要什么样的支持”(*”what the making of great art demanded”*)。他婚后一直支持 Berthe 继续创作，也承担了一定的养育责任（我猜大约承担那么一点在那个年代都算值得大书特书的好父亲了。Berthe 在结婚和生育之后创作时间仍被大量压缩了。）后来他还在 Berthe 画作的展览和售卖等商业事务中扮演了重要角色。对 Berthe 而言，他算是一位很不错的贤内助和支持者。
 
 “幸运”的 Berthe Morisot，相比于更幸运的男画家们，创作一直都受到额外的限制。从少年时代起，她就更多地以风景为绘画题材，因为在有人陪同的情况下前往室外作画是她作为未婚单身女子所被允许的活动范围。她无法像马奈那样在咖啡馆、参观和公共画室里“抛头露面”地创作。

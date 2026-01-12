@@ -14,7 +14,7 @@
   h4,
   h5,
   h6 {
-    font-weight: normal;
+    font-weight: bolder;
     line-height: 2;
     margin-top: 1.5em;
     margin-bottom: $padding-16;
@@ -216,4 +216,25 @@
 
 .highlight {
     background: #eaecef;
+    padding: 0.25em;
+    border-radius: 4px;
 }
+
+mark {
+    background: #eaecef;
+    padding: 0.25em;
+    border-radius: 4px;
+}
+
+.taglook {
+    font-size: 0.75em;
+    line-height: 1;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.taglook.a { background: #eaecef; }
+.taglook.b { background: #d1ecf1; }
+.taglook.c { background: #fce8d5; }
+.taglook.d { background: #e6f4ea; }
