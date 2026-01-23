@@ -163,7 +163,7 @@ bookComments: true
   <img src="https://img.bamboobone9.com/2025-recap/leopard-Claudia.jpg" alt="" style="width: 56%;">
 </div>
 
-<splan class = "image-desc">欣赏一下两位年轻人的美貌，和好舅舅。</span>
+<span class = "image-desc">欣赏一下两位年轻人的美貌，和好舅舅。</span>
 
 ![](https://img.bamboobone9.com/2025-recap/leopard-BurtLancaster.jpg)
 
