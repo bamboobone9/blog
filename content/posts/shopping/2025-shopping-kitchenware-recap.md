@@ -2,7 +2,7 @@
 title: 2025年度总结｜超好用的厨具餐具
 type: post
 date: 2026-01-22T19:54:00-07:00
-categories: ["消费路"]
+categories: ["消费录"]
 tags: ["好物推荐", "2025总结", "北美生活", "下厨房"]
 menu:
   main:
@@ -59,7 +59,7 @@ Le Creuset 已经成为我做炖、煮、煲类菜色的首选锅，两个锅每
 
 ### 防溅油网 Splatter Screen
 
-![](https://img.bamboobone9.com/2025-recap/splatter-screen.jpg)
+![](https://img.bamboobone9.com/2025-recap/splatter-screen-.jpg)
 
 这东西是L建议的，不知道他从哪个主厨节目里看来的，[Amazon 随便选了个评价高价格便宜的](https://amzn.to/4sz5xiF)（可以根据你家里最大的煎锅/炒锅尺寸选，过大不好收纳）。
 
@@ -111,8 +111,11 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
     
     这个工具很适合我这种一段时间内只喝一包豆子的低要求使用者。找到某款豆子某个重量合适的深度之后，可以保证萃取咖啡的质量稳定。这个工具也要买适合 portafilter 尺寸的。
     
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="https://img.bamboobone9.com/2025-recap/espresso-2.jpg" alt="" style="width: 60%;">
+</div>
+<span class = "image-desc">三个推荐工具</span>
 
-![三个推荐工具](https://img.bamboobone9.com/2025-recap/espresso-2.jpg)
 
 下面两个工具可以根据各人情况看是否需要，我觉得还是有必要的：
 
@@ -144,9 +147,19 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
 
 几年前被 Melody 推荐了 [Muji 的不锈钢备餐盘加滤网](https://www.muji.us/products/stainless-steel-vat-mcda0a?variant=39987288572094)，趁美国官网打折时候买了一套，用起来特别顺手；[后来又从 Amazon 上买了一套野田珐琅的盒子](https://amzn.to/49EtTAc)（现在这个价格有点离谱，我买的时候才三十多刀），用起来也特别方便。于是去日本和回国时陆续买了大一号的不锈钢备餐盘+滤网，深型的野田珐琅和各种尺寸的不锈钢餐餐盒。切菜备餐和冷冻食材都特别实用。
 
-搪瓷（比较fancy的说法是珐琅，野田珐琅听起来就很洋气，野田搪瓷听起来就有点年代感。但本质都是将无机玻璃质材料熔融凝结在金属基体表面形成的复合材料，英文均为Enamel）的缺点是容易划伤，不锈钢的缺点是不能放酸性食材，共同的优点是比玻璃饭盒降温快、轻便且省空间。从冰箱里拿出来之后立刻要进微波炉加热的食物就只能放在玻璃饭盒里了。搪瓷和不锈钢最大的缺点是都不能进微波炉。
+搪瓷，比较fancy的说法是珐琅（野田珐琅听起来就很洋气，野田搪瓷听起来就有点年代感）本质都是将无机玻璃质材料熔融凝结在金属基体表面形成的复合材料，英文均为Enamel。比不锈钢材料更稳定，装食物没有限制，缺点是很容易划伤。
 
-玻璃、搪瓷和不锈钢饭盒都能进洗碗机且不留味道（它们的塑料盖子依旧很容易留味道，进洗碗机即使放上层也容易变形），只要我的冰箱空间足够，我肯定优先用它们，而不是塑料餐盒和reusable 硅胶袋。
+
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+  <img src="https://img.bamboobone9.com/2025-recap/nodahoro.jpg" alt="" style="width: 100%;">
+</div>
+<span class = "image-desc">不同形状的野田珐琅容器 </span>  
+
+不锈钢有个缺陷是不能放酸性食材。
+
+搪瓷和不锈钢共同的优点是比玻璃饭盒降温快、轻便且省空间，但两者都有不能进微波炉的硬伤（最近有了能进微波炉的不锈钢饭盒，只对不带转盘的新式微波炉有效）目前来说，我从冰箱里拿出来之后需要进微波炉加热的食物就只能放在玻璃饭盒里了。 
+
+玻璃、搪瓷和不锈钢饭盒都能进洗碗机且不留味道（它们的塑料盖子依旧很容易留味道，进洗碗机即使放上层也容易变形）只要冰箱空间足够，我会优先考虑这三种饭盒，尽量少用塑料餐盒和reusable 硅胶袋。
 
 我的一些使用场景：
 
@@ -154,18 +167,11 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
 - 很快要用的食材处理完后放冷藏室
 - 做大份量熟食和半成品食物，分装冷冻，复热时进烤箱或蒸锅
 
-
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="https://img.bamboobone9.com/2025-recap/muji-vat.jpg" alt="" style="width: 49%;">
   <img src="https://img.bamboobone9.com/2025-recap/FoodContainer-7.jpg" alt="" style="width: 49%;">
 </div>
-<span class = "image-desc">切好菜可以放在备餐盘里，炒菜时把滤网拿出来倒入锅里，以免有多余的水分 </span>
-
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <img src="https://img.bamboobone9.com/2025-recap/nodahoro.jpg" alt="" style="width: 45%;">
-  <img src="https://img.bamboobone9.com/2025-recap/FoodContainer-1.jpg" alt="" style="width: 55%;">
-</div>
-<span class = "image-desc">不同形状的野田珐琅容器 </span>
+<span class = "image-desc">切好菜可以放在备餐盘里，炒菜时把滤网拿出来倒入锅里，以免有多余的水分 </span>  
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="https://img.bamboobone9.com/2025-recap/FoodContainer-9.jpg" alt="" style="width: 49%;">
@@ -211,8 +217,8 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
 [Rubbermaid Food Storage Containers 0.5 cup](https://amzn.to/4qPbFBt)
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <img src="https://img.bamboobone9.com/2025-recap/oxo-pop-0.2.jpg" alt="" style="width: 49%;">
-  <img src="https://img.bamboobone9.com/2025-recap/rubbermaid-0.5.jpg" alt="" style="width: 49%;">
+  <img src="https://img.bamboobone9.com/2025-recap/oxo-pop.jpg" alt="" style="width: 49%;">
+  <img src="https://img.bamboobone9.com/2025-recap/rubbermaid.jpg" alt="" style="width: 49%;">
 </div>  
 
 我前两年在 costco 买了一套OXO pop container 之后我对这款明星产品幻灭了。但当我从 amazon 买了个打折的迷你罐子用来装冰糖和草果等比较大颗的调料之后，重燃了对pop系列的热情。（根据网上的评论，我归结于 costco 卖的oxo pop套装就是质量不太行）于是趁黑五打折又买了四个。做饭时候可以单手操作开盖拿调料，太方便了！
