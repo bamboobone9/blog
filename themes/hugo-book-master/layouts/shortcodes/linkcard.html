@@ -1,10 +1,20 @@
 {{- $url := .Get 0 -}}
-{{- $data := dict -}}
 
-{{/* Try to fetch remote HTML */}}
-{{- $res := resources.GetRemote $url -}}
-{{- with $res -}}
-  {{- $html := .Content | safeHTML -}}
+{{/* Try to fetch remote HTML without failing the build */}}
+{{- $tres := try (resources.GetRemote $url) -}}
+{{- if $tres.Err -}}
+  <a class="db-card linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+    <div class="content">
+      <div class="linkcard-title">{{ $url }}</div>
+      <div class="linkcard-url">{{ $url }}</div>
+    </div>
+  </a>
+  <div style="height: 1em;"></div>
+{{- else -}}
+  {{- $res := $tres.Value -}}
+  {{- $html := $res.Content | safeHTML -}}
+
+
   {{/* naive OG parsing via regex (works on many sites, not all) */}}
   {{- $title := (findRE `(?i)<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']` $html 1) -}}
   {{- $img   := (findRE `(?i)<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']` $html 1) -}}
