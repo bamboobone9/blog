@@ -1,7 +1,9 @@
 {{- if .Page.Site.Params.BookPortableLinks -}}
   {{- template "portable-link" . -}}
 {{- else -}}
-  <a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{- $destination := .Destination -}}
+  {{- $isExternal := or (hasPrefix $destination "http://") (hasPrefix $destination "https://") -}}
+  <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- end -}}
 
 {{- define "portable-link" -}}
@@ -24,5 +26,7 @@
       {{- warnf "Page '%s' not found in '%s'" .Destination .Page.File }}
     {{- end }}
   {{- end }}
-  <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+
+  {{- $isExternal := or (hasPrefix $destination "http://") (hasPrefix $destination "https://") -}}
+  <a href="{{ $destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- end -}}
