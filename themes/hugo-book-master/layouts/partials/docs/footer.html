@@ -28,12 +28,19 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  document
-    .querySelectorAll('a[href]')
-    .forEach(link => {
-        link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener noreferrer");
-    });
+  document.querySelectorAll('a[href]').forEach(link => {
+    const href = link.getAttribute('href');
+
+    // external links only
+    if (href && (href.startsWith('http://') || href.startsWith('https://'))) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    } else {
+      // ensure internal / anchor links stay in same tab
+      link.removeAttribute('target');
+      link.removeAttribute('rel');
+    }
+  });
 });
 </script>
 
