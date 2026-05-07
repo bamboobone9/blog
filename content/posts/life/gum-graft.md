@@ -10,7 +10,7 @@ menu:
     parent: life
 booktoc: true
 bookComments: true
-image: https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f1121767585f50a87_d20250211_m075546_c004_v0402024_t0051_u01739260546198
+image: https://img.bamboobone9.com/gum-graft/gum-graft-illustration.jpg
 imageDes: ""
 ---
 
@@ -20,7 +20,7 @@ imageDes: ""
 
 说来话长，和我的出厂配置 有很大关系。青春期时候在国内做整牙（当年还是钢丝牙套），我才十几岁，牙医就对我的牙龈状况有点担忧。后来戴了三年牙套，清洁牙齿困难，使得牙龈问题更严重。按咱们90后家长的口腔卫生意识，能一天刷两次牙，用用漱口水，已经很讲卫生了，牙线什么的从没听说过。以上这些原因让先天不足的牙龈退化更严重。
 
-我，一个三十岁的人，牙龈退化程度和五六十岁的人差不多，好几颗牙齿都能看到暴露出来的牙根。在美国看的每一个牙医，包括之前帮我拔智齿的牙医（这完全不是他的治疗范围，[关于在美国拔智齿的经历可以看这篇](https://bamboobone9.com/pull-wisdom-teeth/)），都对我的牙龈状况表示了深切的忧虑。他们都告诉我，我不用等到年纪很大就会有牙齿脱落的风险。
+我，一个三十岁的人，牙龈退化程度和五六十岁的人差不多，好几颗牙齿都能看到暴露出来的牙根。在美国看的每一个牙医，包括之前帮我拔智齿的牙医（这完全不是他的治疗范围），都对我的牙龈状况表示了深切的忧虑。他们都告诉我，我不用等到年纪很大就会有牙齿脱落的风险。
 
 牙龈一旦退化是没有可能长回来的，牙医们一致推荐的补救措施就是 Gum Graft 手术。简单来说就是给暴露出来的牙根贴一块补丁，增加牙龈厚度，保护牙根。我这种屁大点毛病都要看医生的焦虑鬼当然觉得这手术必要且紧急，一刻都不能等了！
 
@@ -86,9 +86,8 @@ imageDes: ""
 
 我其实一直分不太清这俩东西，跟我一样分不清的可以看下面的表格，[来自 nytimes 一篇介绍这俩厨房用具的文章。](https://www.nytimes.com/wirecutter/reviews/food-processor-vs-blender/) 在术后恢复有关的食谱中，blender可以用来打饮料和法式浓汤，food processor 可以用来打碎固体食材。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/05c042f1-c1e4-4f93-900c-d56cb8974e5d/image.png)
+![](https://cdn.thewirecutter.com/wp-content/media/2025/05/ADVICE-FOOD-PROCESSOR-VS-BLENDER-chart-600px-1.png?width=728&quality=60&crop=600:830&auto=webp)
 
-source: https://www.nytimes.com/wirecutter/reviews/food-processor-vs-blender/
 
 我自己用的是一个多功能 Immersion Blender，既有可以伸进杯子或者锅里的 blender刀片头，又配了一个类似表中 mini chopper 的小盒子和刀片头，所以两个功能都有了。
 
@@ -98,9 +97,9 @@ source: https://www.nytimes.com/wirecutter/reviews/food-processor-vs-blender/
 
 1. Soylent：我非常讨厌喝甜的，尤其是饿的时候，所以我这次只准备了一瓶香草味的（其实是去年做手术买的一箱没喝完剩下来的，都没看保质期），第一天血块严重的时候就给喝掉了。后面几天睡前突然饿了又懒得弄吃的时候还挺后悔的，如果有soylent就可以直接干了一瓶睡觉。
 2. 调味酸奶：我平时只买plain greek yogurt，也没有厉害到直接吃无糖的greek yogurt，都是用来做overnight oats，现在也吃不了了，就只能将就一下买带调味的酸奶，方便直接吃。
-3. 做smoothie的冷冻水果和spinach / kale（用 blender）：最好买带香蕉的或者准备点新鲜香蕉打进去；这段时间里吃绿叶菜也难，只能打进smoothie里了。一天喝两大杯，也不顶饿，喝得想哭。
-4. 婴儿食物：我去超市找了一下，但看着又贵又难吃，就没买。大家可以试试。
-5. 软面包：sour dough 是想也别想了，我这能买到的中式面包也不够松软。只能去whole foods 和 Trader Joe's 找专门的法式 Brioche 面包，很松软，可以掰下来一点点塞到嘴里吃。
+3. 做smoothie的冷冻水果和spinach / kale（用 blender）：最好买带香蕉的或者准备点新鲜香蕉打进去；这段时间里吃绿叶菜也难，只能打进smoothie里。一天喝两大杯，喝得想哭。
+4. 婴儿食物：我去超市找了一下，但看着又贵又难吃，就没买。
+5. 软面包：sour dough 是想也别想了，只能去whole foods 和 Trader Joe's 找法式 Brioche 面包，很松软，可以掰下来一点点塞到嘴里吃。
 我喜欢猴父子卖的[这款 Cream Cheese Brioche](https://www.wholefoodsmarket.com/product/whole-foods-market-cream-cheese-brioche-141-oz-b07cwzhqst)，同货架上的软软小餐包掰碎了也能吃。缺德舅的系列包装是天蓝色的，[只吃过这种切片的](https://traderjoesrants.com/2019/10/28/trader-joes-sliced-french-brioche-bread/)，同系列还有些别的。
 可惜 Brioche 都是有点甜的！！！所以我抹上了[三只小猪出品很罪恶的鸭肝/猪肝/鸡肝酱](https://3pigs.com/collections/pates-mousses-foie-gras?srsltid=AfmBOopAFg9Z7rqxr1f210TopSIl2ZBdcjvgf3RWjKpisUH9-Qc_7ySO)（不知道别的州是不是鹅肝，反正加州不卖鹅肝），口感细腻顺滑。平时买这个酱从来吃不完，太咸了，看配料表 sodium 含量很高。（[猴父子自有品牌](https://www.wholefoodsmarket.com/product/whole-foods-market-truffle-mousse-pate-b074h57skn)的也还不错，便宜一点点）手术之后大约是饿到了，抹着小块的软面包，一口气吃了好多。三只小猪有一个口味sodium含量低很多，我买过，口感偏硬抹不开，不是很好吃，也不适合这时候吃。
 6. 备足鸡蛋：鸡蛋是个宝。做个软软的美式 scrambled eggs或者炖个鸡蛋羹滴上麻油酱油，立刻拯救被甜味流食折磨得奄奄一息的我，入口又香又软又咸。
@@ -118,35 +117,22 @@ source: https://www.nytimes.com/wirecutter/reviews/food-processor-vs-blender/
 我有天在外面饿急了，外面的食物大多数吃不了，就近找了个星巴克点 egg bites，问店员要个叉子，戳碎了慢慢吃，很满足！
 13. 鸡肉类熟食或半成品：我本来没想到我还能吃很细小的鸡肉丝。没良心的L在我术后第二天就去买了popeyes回来吃，把我馋的呀！！！偷偷撕了一点点鸡肉丝尝尝味道，就发现撕成很细的鸡肉丝可以稍微吃点。就去超市买了烤鸡回来，一点点撕开，塞进后槽牙的部分，稍微嚼一嚼就咽下去。也算吃上肉了TAT 
 撕下来的鸡肉还可以煮在汤里或者粥里。
-再推荐一个我之前发现味道很不错（和其他美国速食比调料味淡一些）的鸡肉类半成品/冷冻食物品牌，叫 Amylu. 这个单词有点奇怪，但它真的是创始人的名字。Whole Foods有卖他们家冷冻的鸡肉丸，是我少数愿意回购的美国冷冻食品。术后第五天，我开始吃这种鸡肉丸，不过要用刀切成指甲盖大小。
+再推荐一个我之前发现味道很不错（和其他美国速食比调料味淡一些）的鸡肉类半成品/冷冻食物品牌，叫 Amylu. 术后第五天，我开始吃这家的冷冻鸡肉丸，用刀切成指甲盖大小慢慢吃。
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/f0df4c80-8e02-432a-93e0-f0b32984e128/image.png)
 
 做起来费点功夫的：
 
 1. 就在手术前，[我刚跟着一个韩裔youtuber学了个菜：spam toufu pancake。](https://youtu.be/z9wNcU87Zls?si=BdeOd8iE14tx7yxe)非常好吃，成品很松软，很容易戳成小块入口。
 术后做的时候为了健康，我把spam换成了ground chicken breast。鸡肉糜很容易在美国超市买到现成的，比起猪肉牛肉糜，鸡肉糜更嫩。但记得换成鸡肉糜之后要比原菜谱多加点盐。
 我口淡，做的时候没敢多加盐，做出来淡得我都受不了，幸好有蘸酱。把原菜谱里的蘸酱去掉辣酱，只留番茄酱和蛋黄酱，足够好吃了。
-我术后做的时候嫌油锅煎饼麻烦，还尝试了一部分用空气炸锅烤熟。平时这样做也许还挺好吃的，因为外皮是脆的，但这种时候就要了命了，外壳太硬了咬不动。幸亏我只用空气炸锅烤了一小部分。
-如果换成鸡肉，用平底锅煎饼的时候要比平时做用更小的火，鸡肉煎过头就不嫩了。
-另外，鸡肉饼里要用到的洋葱和胡萝卜，最好用我上面提到的 food processor 打碎。如果你有中餐切末的刀工也可以手切，但我懒，还手残，感谢 food processor 这一伟大发明。
+我术后做的时候嫌油锅煎饼麻烦，尝试了用空气炸锅烤熟。平时这样做也许还挺好吃的，因为外皮是脆脆的。但这时候就要了命了，外壳太硬了咬不动。
 
-![IMG_6864.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/e32af781-0efe-4c25-a0a5-ecf8fc0c90f3/IMG_6864.jpeg)
-
-![IMG_6865.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/8e9f4b33-4e97-4a81-8f2a-233957b82b51/IMG_6865.jpeg)
-
-1. 鸡丝粥 / 鸡丝蛋花汤：鸡丝用的是上面提到的烤鸡上撕下来的肉。配菜是香菇末、胡萝卜末和菠菜末，都是用 food processor 打碎的（可以尝试加美国超市卖的冷冻玉米粒，多煮会儿，也许能吃）
+2. 鸡丝粥 / 鸡丝蛋花汤：鸡丝用的是烤鸡上撕下来的肉。配菜是香菇末、胡萝卜末和菠菜末，都是用 food processor 打碎的。
 [煮粥可以用这个方法](https://m.xiachufang.com/recipe/100035144/)，喜欢喝稀粥的可以加菜之后稍微多加点水。菜谱说转小火之后炖煮45分钟，我会在25分钟左右加入配菜，因为想比平时多煮会儿，煮得越烂越容易吃。
-汤底可以加 chicken stock，出锅前加点盐和白胡椒。我加了点上面提到的成品汤，增加鲜味（调料味），我用的是 safeway 这款鸡肉汤。如果不煮粥，这汤出锅前可以加蛋花，汤会变浓，顶饿。
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/4644af0d-79c2-4b43-b817-d23480098a85/image.png)
-    
+汤底可以加 chicken stock，出锅前加点盐和白胡椒。如果不煮粥，这汤出锅前可以加蛋花，汤会变浓，顶饿。
 
-![IMG_6896.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/8539524c-af26-4939-b030-2bf72eadc0f7/763a41ca-779f-4784-9a9d-8f4e29bb7558/IMG_6896.jpeg)
-
-1. 番茄鱼汤/粥：我用了特意为术后准备的巴沙鱼片，片成薄片，再切小，番茄用的 diced tomato 罐头。番茄炒一炒加水煮粘稠，最后加入腌过的鱼片滚一下，关火出锅，放温了就能吃了。
+3. 番茄鱼汤/粥：我用了特意为术后准备的巴沙鱼片，片成薄片，再切小，番茄用的 diced tomato 罐头。番茄炒一炒加水煮粘稠，最后加入腌过的鱼片滚一下，关火出锅，放温了就能吃了。
 也可以用上面的方法煮成鱼片粥，如果煮粥别加番茄了，不然口味会有些奇怪。
-2. 
 
 第五天过后我 surgery site 的痛感几乎消失了，开始更大胆地吃东西了。
 
