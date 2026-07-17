@@ -11,6 +11,7 @@ image: https://img.bamboobone9.com/muji/muji_power_strip_box_2.jpg
 imageDes: 
 bookComments: true
 ---
+
 ## Muji
 
 美国是有无印良品，但除了 NYC 和 Portland 之外，别的地方只能靠网购【想要实体店！！想念银座5层楼的旗舰店！！
