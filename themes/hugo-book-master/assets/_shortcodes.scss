@@ -103,12 +103,28 @@
   }
 }
 
-    // {{< spoiler>}}
-    .spoiler {
-  filter: blur(4px);
+// {{< spoiler >}}
+.spoiler {
   display: inline;
-  &:hover {
+
+  input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+  }
+
+  label {
+    filter: blur(4px);
+    cursor: pointer;
+  }
+
+  input:checked + label {
     filter: blur(0);
+  }
+
+  input:focus-visible + label {
+    @include outline;
   }
 }
 
