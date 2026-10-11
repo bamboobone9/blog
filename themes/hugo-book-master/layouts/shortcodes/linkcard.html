@@ -24,6 +24,49 @@
   {{- $i := "" -}}{{- if $img -}}{{- $i = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $img 0) -}}{{- end -}}
   {{- $d := "" -}}{{- if $desc -}}{{- $d = replaceRE `(?is)^.*content=["']([^"']+)["'].*$` `$1` (index $desc 0) -}}{{- end -}}
 
+  {{- $isGoodreads := gt (len (findRE `https?://(www\.)?goodreads\.com/book/show/` $url 1)) 0 -}}
+  {{- $author := "" -}}
+  {{- $rating := "" -}}
+  {{- $ratingCount := "" -}}
+
+  {{- if $isGoodreads -}}
+    {{- with findRE `(?is)<script[^>]+type=["']application/ld\+json["'][^>]*>.*?</script>` $html 1 -}}
+      {{- $json := replaceRE `(?is)<script[^>]*>|</script>` "" (index . 0) -}}
+      {{- $book := transform.Unmarshal $json -}}
+
+      {{- with index $book "name" -}}
+        {{- $t = htmlUnescape . -}}
+      {{- end -}}
+
+      {{- with index $book "image" -}}
+        {{- $i = . -}}
+      {{- end -}}
+
+      {{- with index $book "author" -}}
+        {{- $author = index (index . 0) "name" -}}
+      {{- end -}}
+
+      {{- with index $book "aggregateRating" -}}
+        {{- $rating = index . "ratingValue" -}}
+        {{- $ratingCount = index . "ratingCount" -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{/* Goodreads keeps the full plain-text synopsis in its Next.js page data. */}}
+    {{- with findRE `(?is)<script[^>]+id=["']__NEXT_DATA__["'][^>]*>.*?</script>` $html 1 -}}
+      {{- $json := replaceRE `(?is)<script[^>]*>|</script>` "" (index . 0) -}}
+      {{- $pageData := transform.Unmarshal $json -}}
+      {{- $apolloState := index $pageData "props" "pageProps" "apolloState" -}}
+      {{- range $key, $value := $apolloState -}}
+        {{- if and (strings.HasPrefix $key "Book:") (isset $value `description({"stripped":true})`) -}}
+          {{- $d = index $value `description({"stripped":true})` -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- $d = htmlUnescape $d -}}
+  {{- end -}}
+
   {{- $finalImg := $i -}}
 
   {{- /* If this is Douban, prefer our Backblaze cached cover */ -}}
@@ -41,12 +84,19 @@
     {{- end -}}
   {{- end -}}
 
-  <a class="db-card linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+  <a class="db-card linkcard{{ if $isGoodreads }} goodreads-card{{ end }}" href="{{ $url }}" target="_blank" rel="noopener">
     {{ if $finalImg }}<img class="linkcard-img" src="{{ $finalImg }}" alt="{{ $t }}">{{ end }}
     <div class="content">
       <div class="linkcard-title">{{ if $t }}{{ $t }}{{ else }}{{ $url }}{{ end }}</div>
+      {{ with $author }}<div class="linkcard-author">by {{ . }}</div>{{ end }}
+      {{ if $rating }}
+        <div class="linkcard-rating">
+          <span aria-hidden="true">★</span> {{ $rating }}
+          {{ with $ratingCount }}<span class="linkcard-rating-count">({{ . }} ratings)</span>{{ end }}
+        </div>
+      {{ end }}
       {{ if $d }}<div class="linkcard-desc">{{ $d }}</div>{{ end }}
-      <div class="linkcard-url">{{ $url }}</div>
+      <div class="linkcard-url">{{ if $isGoodreads }}goodreads.com{{ else }}{{ $url }}{{ end }}</div>
     </div>
   </a>
 
