@@ -7,8 +7,8 @@ tags: ["书评", "Review", "推理/犯罪小说"]
 menu:
   main:
     parent: cultural
-image: https://img.bamboobone9.com/2025-recap/Manet_WomanReading.jpg
-imageDes: Woman Reading, by Edouard Manet, 1880-1882, Art Institute Chicago
+image: https://bookriot.com/wp-content/uploads/2025/04/Vera-Wongs-Guide-to-Snooping-On-a-Dead-Man-by-Jesse-Q-Sutanto.jpg.optimal.jpg
+imageDes: https://bookriot.com/vera-wongs-guide-to-snooping-on-a-dead-man-by-jesse-q-sutanto/
 bookComments: true
 ---
 
@@ -18,7 +18,7 @@ bookComments: true
 
 我读的这本是该系列的第二部，我会给到 3.5/5 分。前半部分阅读体验不错，作者很擅长营造轻松愉快、喜剧效果强烈的故事氛围。但当后半段逐渐揭秘时，作者没有协调好罪案题材与作品风格之间的关系，情节设计也不成功，导致阅读体验极差，甚至会对主角产生强烈的反感。后文会展开说明。
 
-最近刚读了 Anthony Horowitz 霍桑系列的第六本 [A Deadly Episode](https://www.goodreads.com/book/show/240612262-a-deadly-episode) 。这一系列每本我都是出版当年就读的，能明显看到过去几年里作者在罪案设计方面的进步。我希望 Jesse 也能逐渐提高情节设计的能力，后续作品越来越好，我还是很喜欢主角 Vera 和这个发生在旧金山的罪案系列的。
+最近刚读了 Anthony Horowitz 霍桑系列的第六本 [A Deadly Episode](https://www.goodreads.com/book/show/240612262-a-deadly-episode) 。这一系列每本我都是出版当年就读的，能明显看到过去几年里作者在罪案设计方面的进步。我希望 Jesse 也能逐渐提高情节设计的能力，后续作品越来越好，我还是很喜欢主角 Vera 和这个发生在旧金山的罪案系列的（看结尾猜测下一本老太太可能要去巴黎探案了）。
 
 读的时候就觉得这个系列很有影视改编的潜力。搜了一下发现第一部出版后就已经卖给华纳了。希望不要拍得像 Netflix 的《周四谋杀俱乐部》那么平庸。  
 
