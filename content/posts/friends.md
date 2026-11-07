@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/friends/"
+rss_guid_is_permalink: true
 Type: docs
 title: "友邻链"
 menu:
@@ -19,7 +21,7 @@ menu:
 [椒盐豆豉](https://blog.douchi.space/#gsc.tab=0)   
 日更博客三百字，到处安利自建站，毛象博文复兴活跃分子【没有椒老师帮我在线 debug 就没有这个新站；博客话题涉及任何你能想到的北美生活相关话题，包括但不限于程序员工作相关，科技产品测评和懒人理财……
 
-[Melody - After 27](http://after27.me/)  
+[Melody - After 27](https://after27.me/)<br>
 在豆瓣相识的友邻，践行极简生活，喜欢烘焙；给我安利了我唯一坚持使用了三年以上的记账软件 YNAB 的人  
 
 [小捌-octo8](https://octo8.blog/)  
@@ -43,7 +45,7 @@ menu:
 [锁麟囊](https://www.kylinbag.top/article/BirchMarinePlywood)  
 有一些神奇的兴趣重叠
 
-[村村 - 配信中](http://yocson.com/)  
+[村村 - 配信中](https://yocson.com/)<br>
 约等于有只可爱金毛的友邻，自从前两年从南湾搬来旧金山之后立刻成为新一代旧金山安利大使  
 
 [The Wandering Allison](https://thewanderingallison.github.io/)  

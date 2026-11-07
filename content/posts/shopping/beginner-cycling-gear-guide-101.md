@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/shopping/beginner-cycling-gear-guide-101/"
+rss_guid_is_permalink: true
 title: 骑行｜新手装备，从极简启动到极致追求
 type: post
 date: 2026-07-16T19:54:00-07:00

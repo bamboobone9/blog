@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/life/2026-Q1-recap/"
+rss_guid_is_permalink: true
 title: 2026第一季度总结｜匆匆忙忙四分之一年
 type: post
 date: 2026-05-14T22:20:00-07:00

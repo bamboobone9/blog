@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/favorite-purchases-2025/"
+rss_guid_is_permalink: true
 title: 久违的不胶囊衣柜｜近些年每次穿都很开心的衣服们
 type: post
 date: 2025-05-03T08:54:00-07:00
@@ -136,14 +138,14 @@ imageDes: Examining the etchings by Dame Laura Knight
 
 题外话，日本真的太好逛太好买了。买手店的选品各有特色，如果能找到一家和自己穿衣风格相合的买手店，几乎就可以泡在店里买齐一身；如果喜欢日本的牌子，相比于美国的定价，在日本买也划算太多太多了。哪怕本身是美国品牌，日本店家的选品和展示方式，都比放在美国店里让人更想买。L在某男装集合店买了一件很特别的卫衣，买回来之后经常穿。近日他突然发现品牌标签上写了 San Francisco，一查，该品牌只有个在东湾某住宅区的地址，十分像家庭作坊，他瞬间感觉上当受骗。要我说，这衣服要挂在 SF 的店里，他估计永远不会有机会看见并且想买的。只能说，集合店或买手店，买的就是店主的审美和眼光。
 
-有些牌子还会有日本限定款式，好看到让人怀疑美国和日本的品牌只是刚好重名了。[我前几日才忍不住吐槽了相关现象。](https://bamboobone9.com/posts/thoughts/2025-05-01/)
+有些牌子还会有日本限定款式，好看到让人怀疑美国和日本的品牌只是刚好重名了。[我前几日才忍不住吐槽了相关现象。]({{< relref "/posts/thoughts/2025-05-01.md" >}})
 
 我小时候看香港电影，不懂为什么老有大哥或者大哥的女人去日本 shopping 的情节。现在我懂了。哪怕我是穷苦打工人，我也愿意把我有限的一丢丢钱花在日本。
 
 <br>
 
 
-### 广受欢迎自有道理
+### 广受欢迎自有道理 {#广受欢迎自有道理}
 
 **BAGGU 尼龙斜挎包 （[Large Nylon Crescent Bag](https://amzn.to/4iHZuSE)）**
 
@@ -161,7 +163,7 @@ imageDes: Examining the etchings by Dame Laura Knight
 
 ![官网图平平无奇，但上身还是挺好看的，关键是很实用](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f118f045916b0c1b7_d20250504_m054849_c004_v0402024_t0037_u01746337729705)
 
-朋友的格纹帆布包是这款，另有些可爱的插画图案，后来还见另一个朋友背过 SF MOMA 合作款（就是在这个格纹包上印了个 SF MOMA 的字样）： [Baggu Horizontal Zip Duck Bag](https://amzn.to/4iHZuSE)
+朋友的格纹帆布包是这款，另有些可爱的插画图案，后来还见另一个朋友背过 SF MOMA 合作款（就是在这个格纹包上印了个 SF MOMA 的字样）： [Baggu Horizontal Zip Duck Bag](https://baggu.com/collections/zip-duck-bag)
 
 <img src="https://img.bamboobone9.com/favorite-purchases/baggu 2.jpg" alt="我很喜欢他们请的这个老奶奶模特" style="width: 50%; vertical-align: left;"> 
 

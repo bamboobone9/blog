@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/book-list-mystery-crime-detective-novel-underrated-recs-1/"
+rss_guid_is_permalink: true
 title: 书单｜推理/犯罪小说迷的冷门推荐 Vol.1
 type: post
 date: 2024-12-30T22:54:00-07:00

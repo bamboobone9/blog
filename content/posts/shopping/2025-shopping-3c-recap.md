@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/shopping/2025-shopping-3c-recap/"
+rss_guid_is_permalink: true
 title: 2025年度总结｜差强人意又不得不买的3C产品们
 type: post
 date: 2026-03-02T19:54:00-07:00

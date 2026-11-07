@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/restaurant-review-benu/"
+rss_guid_is_permalink: true
 title: 湾区食单 | Benu 吃一次就够，剩下的交给 San Ho Wan
 type: post
 date: 2023-09-26T22:54:00-07:00

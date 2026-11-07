@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/about/"
+rss_guid_is_permalink: true
 type: docs
 title: "斋主人"
 BookComments: False

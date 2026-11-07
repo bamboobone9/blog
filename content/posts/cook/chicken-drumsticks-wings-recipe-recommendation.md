@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/chicken-drumstick-wings-recipe-recommendation/"
+rss_guid_is_permalink: true
 title: 下厨房 | 经过时间检验的好吃菜谱：琵琶腿和鸡翅
 type: post
 date: 2026-04-19T23:54:00-07:00
@@ -28,9 +30,9 @@ bookComments: true
 
 前情提要：  
 
-[无骨鸡腿肉篇](/posts/cook/chicken-thighs-recipe-recommendation/)   
+[无骨鸡腿肉篇]({{< relref "/posts/cook/chicken-thighs-recipe-recommendation.md" >}})
 
-[牛肉篇](/posts/cook/chicken-thighs-recipe-recommendation/)
+[牛肉篇]({{< relref "/posts/cook/beef-recipe-recommendation.md" >}})
 
 
 # 琵琶腿 Drum Sticks

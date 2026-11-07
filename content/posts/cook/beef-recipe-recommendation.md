@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/beef-recipe-recommendation/"
+rss_guid_is_permalink: true
 title: 下厨房 | 经过时间检验的好吃菜谱：牛肉篇
 type: post
 date: 2024-10-26T22:54:00-07:00
@@ -330,7 +332,7 @@ costco以前只有偏厚的牛肉片卖，做不了咱们喜欢的中日韩菜�
 
 ![](https://f004.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z5ad602b6030bca069d420d18_f108b073a013336de_d20250215_m190148_c004_v0402027_t0021_u01739646108067)
 
-还吃过贵州朋友精心烹制的西南酸汤肥牛，用到了百香果这种高级食材（贵州云南酸汤的酸来自百香果和番茄），非常非常好吃，已经成为新欢。[目前亚米和 weee 也都有现成调料包卖，贵州朋友推荐的是这款玉梦牌的的](https://www.notion.so/Mediterranean-Vegetable-Soup-3aeb5da46d84403180f268c254e7c1b4?pvs=21)。毕赣的电影让我熟悉了凯里这个地名，没想到酸汤也很有名。
+还吃过贵州朋友精心烹制的西南酸汤肥牛，用到了百香果这种高级食材（贵州云南酸汤的酸来自百香果和番茄），非常非常好吃，已经成为新欢。[目前亚米和 weee 也都有现成调料包卖，贵州朋友推荐的是这款玉梦牌的](https://www.yami.com/us/zh/p/sour-soup-16-93-oz/1148079031)。毕赣的电影让我熟悉了凯里这个地名，没想到酸汤也很有名。
 
 还有个[用醋调的酸汤肥牛面做法](https://www.xiachufang.com/recipe/104090770/)。在我没发现海底捞酸汤料之前都用这个做法。也可以把上面菜谱里做的正宗酸汤移植过来【有溏心蛋的面不可能难吃！
 

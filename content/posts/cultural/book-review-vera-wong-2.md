@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/book-review-vera-wong-2/"
+rss_guid_is_permalink: true
 title: 书评｜旧金山华人老太，喝茶破案 
 type: post
 date: 2026-10-10T19:54:00-07:00

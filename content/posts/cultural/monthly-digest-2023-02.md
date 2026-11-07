@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/monthly-digest-2023-02/"
+rss_guid_is_permalink: true
 title: 2023.02 Monthly Digest
 type: post
 date: 2023-03-06T22:54:00-07:00

@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/life/2026-may-recap/"
+rss_guid_is_permalink: true
 title: 2026.05 小结 | 能把头吹掉的风季来了
 type: post
 date: 2026-06-07T22:20:00-07:00

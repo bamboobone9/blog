@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/what-i-talk-about-when-i-talk-about-being-single/"
+rss_guid_is_permalink: true
 title: 杂记 | 当我说单身焦虑的时候我在说什么
 type: post
 date: 2022-09-07T22:54:00-07:00

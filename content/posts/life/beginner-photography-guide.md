@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/beginner-photography-guide/"
+rss_guid_is_permalink: true
 title: 教程 | 看了就懂的摄影教程，助新手摆脱自动模式
 type: post
 date: 2024-05-15T22:54:00-07:00

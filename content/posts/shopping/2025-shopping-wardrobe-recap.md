@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/shopping/2025-shopping-wardrobe-recap/"
+rss_guid_is_permalink: true
 title: 2025年度总结｜衣柜回顾
 type: post
 date: 2026-03-08T19:54:00-07:00
@@ -53,7 +55,7 @@ bookComments: true
 
 ### 丑萌的极光鞋 [Aurora Shoes Middle English Brown](https://www.aurorashoeco.com/products/mens-middle-english-brown?variant=43687006404903)
 
-这鞋我是在搜日系穿搭的参考图时被安利到的。[我之前还发过一条吐槽美国人拍的宣传照过丑](https://bamboobone9.com/posts/thoughts/2025-05-01/)，如果不是日本人比较会营销，我这辈子都不会注意这鞋。
+这鞋我是在搜日系穿搭的参考图时被安利到的。[我之前还发过一条吐槽美国人拍的宣传照过丑]({{< relref "/posts/thoughts/2025-05-01.md" >}})，如果不是日本人比较会营销，我这辈子都不会注意这鞋。
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="https://www.aurorashoeco.com/cdn/shop/products/09_2048x2048.jpg?v=1360098726" alt="" style="width: 65%;">

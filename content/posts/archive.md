@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/archive/"
+rss_guid_is_permalink: true
 type: docs
 title: "故纸堆"
 BookComments: False

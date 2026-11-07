@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/shopping/muji-purchases-fav-2026/"
+rss_guid_is_permalink: true
 title: 好物推荐｜转运过的 Muji 和霜山的家居用品
 type: post
 date: 2026-06-15T22:54:00-07:00
@@ -75,7 +77,7 @@ Muji 这个用了几周挺满意的。外形简洁，体积小巧，在家时走
 
 ### 不锈钢餐盘
 
-[上次介绍过的厨房用品。](https://bamboobone9.com/posts/shopping/2025-shopping-kitchenware-recap/#%E5%90%84%E7%A7%8D%E5%A4%87%E9%A4%90%E7%9B%98%E9%A5%AD%E7%9B%92) 因为过于好用，这次又转运了一个。
+[上次介绍过的厨房用品。]({{< relref "/posts/shopping/2025-shopping-kitchenware-recap.md#各种备餐盘饭盒" >}}) 因为过于好用，这次又转运了一个。
 
 <div style="display: flex; justify-content: space-between; gap: 10px;">
   <img src="https://img.bamboobone9.com/2025-recap/muji-vat.jpg" alt="" style="width: 49%;">

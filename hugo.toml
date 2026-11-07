@@ -136,3 +136,7 @@ copyright = '© 2025 无竹斋'
   [privacy.instagram]
     disable = false
     simple = false
+
+
+[services.rss]
+  limit = 2

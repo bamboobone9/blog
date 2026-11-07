@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/civ-vi-female-leaders-2/"
+rss_guid_is_permalink: true
 title: 文明六｜适合低难度种田党的女性领袖介绍 Vol.2
 type: post
 date: 2026-02-05T22:16:00-07:00
@@ -13,7 +15,7 @@ bookComments: true
 ---
 半年过去了，文明七的评价不仅没有拉回来，Steam 的近期评价反而更低了。想起来还有一半没写的文明六女性领袖，赶紧来更新。
 
-👉 [前情提要 Vol.1](https://bamboobone9.com/posts/cultural/civ-vi-female-leaders-1/)
+👉 [前情提要 Vol.1]({{< relref "/posts/cultural/civ-vi-female-leaders-1.md" >}})
 
 ## 荷兰和蔼可亲老太太 Wilhelmina
 

@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/shopping/2025-shopping-kitchenware-recap/"
+rss_guid_is_permalink: true
 title: 2025年度总结｜超好用的厨具餐具
 type: post
 date: 2026-01-22T19:54:00-07:00
@@ -96,7 +98,7 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
     
     这工具大概不用解释？做咖啡如果不称重咖啡豆/咖啡粉，就只能祝你好运了。[我用的 Amazon 这个便宜的](https://amzn.to/4bwRCTY)，很想升级成 [OXO 这款显示器可以拉出来](https://amzn.to/4qlfcHQ)的，这样泡茶和做饭时用大一点的容器称重就会很方便。
     
-2. [Dosing Funnel: <$10]((https://amzn.to/4qPbVAr) )  
+2. [Dosing Funnel: <$10](https://amzn.to/4qPbVAr)
 
    这个相当于给 portafilter 加了个围栏，在用 tamper 之前防止打好的粉掉出来。 这是本手残最感激自己拥有的一个工具。很难想象如果没买这个工具，我那颤抖的手每次要撒多少咖啡粉在磨豆机和咖啡机之间短短10cm的路径上。  
 
@@ -143,7 +145,7 @@ Espresso Machine 对咖啡粉的细度要求超过其他萃取方式，以前用
 
 <br>
 
-### 各种备餐盘/饭盒
+### 各种备餐盘/饭盒 {#各种备餐盘饭盒}
 
 几年前被 Melody 推荐了 [Muji 的不锈钢备餐盘加滤网](https://www.muji.us/products/stainless-steel-vat-mcda0a?variant=39987288572094)，趁美国官网打折时候买了一套，用起来特别顺手；[后来又从 Amazon 上买了一套野田珐琅的盒子](https://amzn.to/49EtTAc)（现在这个价格有点离谱，我买的时候才三十多刀），用起来也特别方便。于是去日本和回国时陆续买了大一号的不锈钢备餐盘+滤网，深型的野田珐琅和各种尺寸的不锈钢餐餐盒。切菜备餐和冷冻食材都特别实用。
 

@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/restaurant-review-kusakabe/"
+rss_guid_is_permalink: true
 title: 湾区食单 | 总是可以相信Kusakabe
 type: post
 date: 2023-09-27T22:54:00-07:00

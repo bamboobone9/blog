@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/chicken-thighs-recipe-recommendation/"
+rss_guid_is_permalink: true
 title: 下厨房 | 经过时间检验的好吃菜谱：鸡腿肉
 type: post
 date: 2025-10-21T21:54:00-07:00
@@ -22,7 +24,7 @@ bookComments: true
 不炒糖色不烘干的卤牛肉做法是麻烦程度基准线： ⭐⭐⭐
 
 为了满足只爱吃鸡肉和鱼肉的椒老师的需求，决定第二篇先写鸡肉。 
-【上篇[牛肉合集](https://bamboobone9.com/beef-recipe-recommendation/)竟然已经是一年前的事了，真是懈怠的一年！
+【上篇[牛肉合集]({{< relref "/posts/cook/beef-recipe-recommendation.md" >}})竟然已经是一年前的事了，真是懈怠的一年！
 
 
 # 鸡腿肉 Chicken Thighs

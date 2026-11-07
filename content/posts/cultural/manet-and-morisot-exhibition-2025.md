@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/manet-and-morisot-exhibition-2025/"
+rss_guid_is_permalink: true
 title: 看展｜被掩盖在马奈阴影里的出色画家莫里索
 type: post
 date: 2025-12-21T11:54:00-07:00
@@ -87,7 +89,7 @@ Morisot 二三十岁时，Manet以她为模特画了不少肖像，这次能看�
 这两幅作品也让立刻我想起 *Woman Combing Her Hair in front of a Mirror (by Edgar Degas, 1877)* 。查了才发现这三幅作品创作时间都几乎重合（Degas这幅被收藏在LA我最喜欢的博物馆 Norton Simon Museum）但好像也没有明确证据表明 Degas 这幅和他俩的创作有什么关系。从人物形态上看 ，Degas 的作品和 Morisot 的作品意外地相似，更日常更生动，所以我也很喜欢 Degas 这幅。
  
 <div style="display: flex; justify-content: space-between; gap: 10px;">
-  <img src="http://art-degas.com/image/degas_artworks/198%20Woman%20Combing%20Her%20Hair%20in%20front%20of%20a%20Mirror%201877.jpg" alt="" style="width: 80%;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%27Woman_Combing_her_Hair_before_a_Mirror%27_by_Edgar_Degas.JPG/960px-%27Woman_Combing_her_Hair_before_a_Mirror%27_by_Edgar_Degas.JPG" alt="Woman Combing her Hair before a Mirror by Edgar Degas" style="width: 80%;">
 </div>
 
 

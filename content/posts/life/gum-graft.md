@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/gum-graft-experience/"
+rss_guid_is_permalink: true
 title: 杂记 | 希望你用不上的 Gum Graft 手术介绍（其实是菜谱推荐）
 type: post
 date: 2024-09-18T22:54:00-07:00

@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/civ-vi-female-leaders-1/"
+rss_guid_is_permalink: true
 title: 文明六｜适合低难度种田党的女性领袖介绍 Vol.1
 type: post
 date: 2025-07-18T18:16:00-07:00

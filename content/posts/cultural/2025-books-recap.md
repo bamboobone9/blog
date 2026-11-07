@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/2025-books-recap/"
+rss_guid_is_permalink: true
 title: 2025年度总结｜读书
 type: post
 date: 2026-01-05T19:54:00-07:00
@@ -74,7 +76,7 @@ bookComments: true
 
 {{< linkcard "https://book.douban.com/subject/26246928/" >}}
 
-👉 [如果对阿婆笔下罪案更精彩更经典的作品感兴趣，欢迎阅读这篇博文。](https://bamboobone9.com/posts/cultural/agatha-christie-best-and-underrated-books/)
+👉 [如果对阿婆笔下罪案更精彩更经典的作品感兴趣，欢迎阅读这篇博文。]({{< relref "/posts/cultural/agatha-christie-best-and-underrated-books.md" >}})
 
 <br>
 

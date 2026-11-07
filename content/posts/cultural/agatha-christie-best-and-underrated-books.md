@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/posts/cultural/agatha-christie-best-and-underrated-books/"
+rss_guid_is_permalink: true
 title: 我喜欢的阿加莎作品推荐，也可以是入坑指南
 type: post
 date: 2024-03-04 16:39:00

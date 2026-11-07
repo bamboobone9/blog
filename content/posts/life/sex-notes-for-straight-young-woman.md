@@ -1,4 +1,6 @@
 ---
+rss_guid: "http://bamboobone9.com/sex-notes-for-straight-young-woman/"
+rss_guid_is_permalink: true
 title: 杂记 | 写给直女妹妹的性生活笔记
 type: post
 date: 2025-07-06T21:54:00-07:00
